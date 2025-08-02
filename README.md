@@ -48,10 +48,14 @@
 * 🎬 Tổ chức **mock interview** → Thử giải thích bằng **ngôn ngữ đơn giản nhất**.
 * 🏆 Khi **dạy lại và phỏng vấn mượt mà** → Bạn đã **làm chủ kỹ năng**.
 
--------------------------------------------------- 
+## SƠ ĐỒ MERMAID LUỒNG QUY TRÌNH
+Đây là phiên bản đã sửa lỗi cho tất cả các sơ đồ:
+
+### 1. Sơ đồ flowchart tổng quan
+
 ```mermaid
 flowchart TD
-    subgraph "Lộ Trình 4 Bước Học Kỹ Năng Cùng AI"
+    subgraph main ["Lộ Trình 4 Bước Học Kỹ Năng Cùng AI"]
         Start[Start: Bắt Đầu Học Tập Suốt Đời] --> Step1[Định Hướng & Thiết Kế Roadmap]
         Step1 --> Step2[Triển Khai & Thực Chiến Với AI]
         Step2 --> Step3[Đào Sâu Với NotebookLM]
@@ -59,40 +63,40 @@ flowchart TD
         Step4 --> End[End: Làm Chủ Kỹ Năng]
     end
 
-    subgraph "Chi Tiết Bước 1: Định Hướng & Thiết Kế Roadmap"
-        Goal[🎯 Xác Định Mục Tiêu Rõ Ràng<br>Ví Dụ: Nắm Vững Project X Trong 30 Ngày] --> AI_Design[🤖 Nhờ AI Thiết Kế Roadmap Chi Tiết]
+    subgraph step1_detail ["Chi Tiết Bước 1: Định Hướng & Thiết Kế Roadmap"]
+        Goal[🎯 Xác Định Mục Tiêu Rõ Ràng] --> AI_Design[🤖 Nhờ AI Thiết Kế Roadmap Chi Tiết]
         AI_Design --> Content[Nội Dung Học Tập]
         AI_Design --> Exercises[Bài Tập Thực Chiến]
-        AI_Design --> Resources[Tài Nguyên<br>Sách, Web, Video,...]
+        AI_Design --> Resources[Tài Nguyên: Sách, Web, Video]
         Resources --> Upload_Notebook[Upload Lên NotebookLM Để Nghiên Cứu Sâu]
-        ProTip1[💡 Pro Tip: Đặt 1 Câu Hỏi Và Dùng Nhiều AI<br>Gemini, ChatGPT, DeepSeek, Qwen, Grok<br>Chọn Bản Tốt Nhất] --> AI_Design
-        Warning[⚠️ Quan Trọng: Đầu Tư Nhiều Thời Gian<br>Chọn Lọc Kỹ, Tìm Hướng Đi Tối Ưu<br>Tránh Học Lan Man] --> Goal
+        ProTip1[💡 Pro Tip: Đặt 1 Câu Hỏi Và Dùng Nhiều AI] --> AI_Design
+        Warning[⚠️ Quan Trọng: Đầu Tư Nhiều Thời Gian] --> Goal
     end
     Step1 --> Goal
 
-    subgraph "Chi Tiết Bước 2: Triển Khai & Thực Chiến Với AI"
-        Prompt[📝 Dùng Prompt Để Gemini Live<br>Chế Độ Text Hướng Dẫn Từng Bài Học] --> ProTips[💡 Pro Tips]
-        ProTips --> PracticeFocus[Chú Trọng Thực Hành Hơn Lý Thuyết<br>Trăm Hay Không Bằng Tay Quen]
-        ProTips --> StepByStep[Yêu Cầu AI Dạy Từng Bước Một<br>Học Viên Phải Gõ Từng Lệnh Xong Mới Tiếp Tục]
-        ProTips --> NoOverload[Không Dạy Nhiều Lệnh Cùng Lúc<br>Tránh Quá Tải]
-        ProTips --> AskFeedback[Sau Mỗi Phần Lý Thuyết<br>AI Dừng Lại Hỏi Về Tốc Độ, Góp Ý<br>Chỉ Khi Ổn Mới Tiếp Tục]
-        ProTips --> SlowDown[Nếu AI Dạy Quá Nhiều<br>Yêu Cầu Dạy Lại Chậm, Từng Bước<br>Chú Trọng Thực Hành Hơn Lý Thuyết]
-        AfterLesson[🔄 Sau Mỗi Bài<br>Nhờ AI Viết Lại Bài Hướng Dẫn Cho Người Mới<br>+ Sơ Đồ Mermaid Trực Quan] --> PushGit[🚀 Đẩy Toàn Bộ Tài Liệu Lên GitHub]
+    subgraph step2_detail ["Chi Tiết Bước 2: Triển Khai & Thực Chiến Với AI"]
+        Prompt[📝 Dùng Prompt Để Gemini Live] --> ProTips[💡 Pro Tips]
+        ProTips --> PracticeFocus[Chú Trọng Thực Hành Hơn Lý Thuyết]
+        ProTips --> StepByStep[Yêu Cầu AI Dạy Từng Bước Một]
+        ProTips --> NoOverload[Không Dạy Nhiều Lệnh Cùng Lúc]
+        ProTips --> AskFeedback[Sau Mỗi Phần Lý Thuyết AI Dừng Lại Hỏi]
+        ProTips --> SlowDown[Nếu AI Dạy Quá Nhiều Yêu Cầu Dạy Lại]
+        AfterLesson[🔄 Sau Mỗi Bài Nhờ AI Viết Lại] --> PushGit[🚀 Đẩy Toàn Bộ Tài Liệu Lên GitHub]
         Prompt --> AfterLesson
     end
     Step2 --> Prompt
 
-    subgraph "Chi Tiết Bước 3: Đào Sâu Với NotebookLM"
+    subgraph step3_detail ["Chi Tiết Bước 3: Đào Sâu Với NotebookLM"]
         Upload[⬆️ Upload Tài Nguyên Vào NotebookLM] --> Mindmap[Vẽ Mindmap]
         Upload --> Quiz[Tạo Câu Hỏi Ôn Tập]
         Upload --> SelfSolve[Tự Giải Để Củng Cố Kiến Thức]
-        Result[📄 Kết Quả: Bộ Tài Liệu Hoàn Chỉnh<br>Kèm Sơ Đồ Mermaid<br>Publish Lên GitHub] --> Upload
+        Result[📄 Kết Quả: Bộ Tài Liệu Hoàn Chỉnh] --> Upload
     end
     Step3 --> Upload
 
-    subgraph "Chi Tiết Bước 4: Dạy Lại & Mock Interview"
-        Explain[👥 Giải Thích Kiến Thức Cho AI Hoặc Bạn Bè<br>Nhờ Họ Debug Điểm Mù] --> Mock[🎬 Tổ Chức Mock Interview<br>Thử Giải Thích Bằng Ngôn Ngữ Đơn Giản Nhất]
-        Mastery[🏆 Khi Dạy Lại Và Phỏng Vấn Mượt Mà<br>Bạn Đã Làm Chủ Kỹ Năng] --> Explain
+    subgraph step4_detail ["Chi Tiết Bước 4: Dạy Lại & Mock Interview"]
+        Explain[👥 Giải Thích Kiến Thức Cho AI Hoặc Bạn Bè] --> Mock[🎬 Tổ Chức Mock Interview]
+        Mastery[🏆 Khi Dạy Lại Và Phỏng Vấn Mượt Mà] --> Explain
     end
     Step4 --> Explain
 
@@ -102,32 +106,10 @@ flowchart TD
     style Step2 fill:#9C27B0,stroke:#7B1FA2,color:#FFF
     style Step3 fill:#FF9800,stroke:#F57C00,color:#000
     style Step4 fill:#E91E63,stroke:#C2185B,color:#FFF
-    style Goal fill:#03A9F4,stroke:#0288D1,color:#FFF
-    style AI_Design fill:#673AB7,stroke:#512DA8,color:#FFF
-    style Content fill:#FFC107,stroke:#FFA000,color:#000
-    style Exercises fill:#FF5722,stroke:#E64A19,color:#FFF
-    style Resources fill:#8BC34A,stroke:#689F38,color:#000
-    style Upload_Notebook fill:#CDDC39,stroke:#AFB42B,color:#000
-    style ProTip1 fill:#009688,stroke:#00796B,color:#FFF
-    style Warning fill:#F44336,stroke:#D32F2F,color:#FFF
-    style Prompt fill:#3F51B5,stroke:#303F9F,color:#FFF
-    style ProTips fill:#00BCD4,stroke:#0097A7,color:#000
-    style PracticeFocus fill:#795548,stroke:#5D4037,color:#FFF
-    style StepByStep fill:#607D8B,stroke:#546E7A,color:#FFF
-    style NoOverload fill:#FFEB3B,stroke:#FFC107,color:#000
-    style AskFeedback fill:#4CAF50,stroke:#388E3C,color:#FFF
-    style SlowDown fill:#2196F3,stroke:#1976D2,color:#FFF
-    style AfterLesson fill:#9C27B0,stroke:#7B1FA2,color:#FFF
-    style PushGit fill:#FF9800,stroke:#F57C00,color:#000
-    style Upload fill:#E91E63,stroke:#C2185B,color:#FFF
-    style Mindmap fill:#03A9F4,stroke:#0288D1,color:#FFF
-    style Quiz fill:#673AB7,stroke:#512DA8,color:#FFF
-    style SelfSolve fill:#FFC107,stroke:#FFA000,color:#000
-    style Result fill:#FF5722,stroke:#E64A19,color:#FFF
-    style Explain fill:#8BC34A,stroke:#689F38,color:#000
-    style Mock fill:#CDDC39,stroke:#AFB42B,color:#000
-    style Mastery fill:#009688,stroke:#00796B,color:#FFF
-``` 
+```
+
+### 2. Sequence diagram Bước 1
+
 ```mermaid
 %%{
   init: {
@@ -140,14 +122,13 @@ flowchart TD
   }
 }%%
 sequenceDiagram
-    actor HV as Học viên
-    participant AIs as Các AI<br>(Gemini, ChatGPT, DeepSeek...)
+    participant HV as Học viên
+    participant AIs as Các AI (Gemini, ChatGPT, DeepSeek...)
     participant NLM as NotebookLM
 
-    title Sơ đồ chi tiết Bước 1: Định hướng & Thiết kế Roadmap
-
     rect rgb(227, 242, 253)
-        HV->>+HV: 🎯 Xác định mục tiêu rõ ràng<br>VD: "Nắm vững Project X trong 30 ngày"
+        HV->>+HV: 🎯 Xác định mục tiêu rõ ràng
+        Note over HV: VD: "Nắm vững Project X trong 30 ngày"
     end
 
     loop Pro Tip: Hỏi nhiều AI để có bản tốt nhất
@@ -156,7 +137,9 @@ sequenceDiagram
     end
 
     rect rgb(255, 243, 224)
-        note over HV: ⚠️ Phân tích, chọn lọc & kết hợp<br>Đây là bước quan trọng, cần đầu tư thời gian<br>để tìm ra hướng đi tối ưu nhất, tránh lan man.
+        Note over HV: ⚠️ Phân tích, chọn lọc & kết hợp
+        Note over HV: Đây là bước quan trọng, cần đầu tư thời gian
+        Note over HV: để tìm ra hướng đi tối ưu nhất, tránh lan man
         HV->>HV: Chọn ra bản roadmap cuối cùng
     end
 
@@ -164,7 +147,9 @@ sequenceDiagram
         HV->>+NLM: Upload các tài nguyên (sách, web, video...) từ roadmap
         NLM-->>-HV: Sẵn sàng cho việc nghiên cứu sâu
     end
-``` 
+```
+
+### 3. Sequence diagram Bước 2
 
 ```mermaid
 %%{
@@ -178,33 +163,30 @@ sequenceDiagram
     }
   }
 }%%
-title Sơ đồ chi tiết Bước 2:Triển khai & Thực chiến với AI
 sequenceDiagram
-    actor HV as Học viên
+    participant HV as Học viên
     participant GL as Gemini Live (Text)
     participant GH as GitHub
-
-    title Triển khai & Thực chiến với AI
 
     HV->>+GL: Gửi prompt yêu cầu bắt đầu hướng dẫn bài học
 
     loop Vòng lặp Học & Thực hành (cho mỗi phần kiến thức)
         
         rect rgb(225, 245, 254)
-            GL->>HV:Dạy từng bước một (1 lệnh/khái niệm mỗi lần)
-            note right of GL: Chú trọng thực hành hơn lý thuyết
+            GL->>HV: Dạy từng bước một (1 lệnh/khái niệm mỗi lần)
+            Note right of GL: Chú trọng thực hành hơn lý thuyết
         end
 
         HV->>HV: Tự gõ lại từng lệnh, thực hành ngay lập tức
 
         rect rgb(255, 249, 196)
-            GL->>HV: Dừng lại và hỏi:<br>1. Tốc độ có ổn không?<br>2. Có góp ý gì không?
-            HV->>GL: Phản hồi:<br>- Tiếp tục, hoặc...<br>- Yêu cầu dạy chậm lại, chi tiết hơn
+            GL->>HV: Dừng lại và hỏi về tốc độ và góp ý
+            HV->>GL: Phản hồi: Tiếp tục hoặc yêu cầu dạy chậm lại
         end
 
     end
     
-    note over HV,GL: Vòng lặp tiếp tục cho đến khi hoàn thành bài học
+    Note over HV,GL: Vòng lặp tiếp tục cho đến khi hoàn thành bài học
 
     rect rgb(239, 235, 233)
         HV->>GL: Yêu cầu viết lại bài hướng dẫn hoàn chỉnh + tạo sơ đồ Mermaid
@@ -215,7 +197,10 @@ sequenceDiagram
         HV->>+GH: Đẩy toàn bộ tài liệu và mã nguồn lên GitHub
         GH-->>-HV: Lưu trữ thành công
     end
-``` 
+```
+
+### 4. Flowchart Bước 3
+
 ```mermaid
 %%{
   init: {
@@ -228,29 +213,28 @@ sequenceDiagram
     }
   }
 }%%
-title Sơ đồ chi tiết Bước 3: Không gian làm việc NotebookLM
 flowchart TD
-    subgraph "Không gian làm việc NotebookLM"
+    subgraph workspace ["Không gian làm việc NotebookLM"]
         direction TB
-        B1["Vẽ Mindmap<br>Hệ thống hóa ý tưởng"]
-        B2["Tạo câu hỏi ôn tập<br>Dựa trên nội dung đã upload"]
-        B3["Tự trả lời câu hỏi<br>Để kiểm tra và củng cố hiểu biết"]
+        B1[Vẽ Mindmap - Hệ thống hóa ý tưởng]
+        B2[Tạo câu hỏi ôn tập - Dựa trên nội dung đã upload]
+        B3[Tự trả lời câu hỏi - Để kiểm tra và củng cố hiểu biết]
     end
 
-    A(Tài nguyên & Tài liệu thô<br>từ Bước 2) --> UPLOAD["⬆️ Upload vào NotebookLM"];
-    UPLOAD --> B1;
-    UPLOAD --> B2;
-    B2 --> B3;
+    A[Tài nguyên & Tài liệu thô từ Bước 2] --> UPLOAD[⬆️ Upload vào NotebookLM]
+    UPLOAD --> B1
+    UPLOAD --> B2
+    B2 --> B3
 
-    subgraph "Kết quả cuối cùng"
+    subgraph result ["Kết quả cuối cùng"]
         direction TB
-        C{Bộ tài liệu hoàn chỉnh<br>+ Sơ đồ Mermaid}
+        C[Bộ tài liệu hoàn chỉnh + Sơ đồ Mermaid]
         D[🚀 Publish lên GitHub]
     end
     
-    B1 --> C;
-    B3 --> C;
-    C --> D;
+    B1 --> C
+    B3 --> C
+    C --> D
 
     style A fill:#e3f2fd,stroke:#1565c0
     style UPLOAD fill:#ffcc80,stroke:#ef6c00
@@ -259,7 +243,9 @@ flowchart TD
     style B3 fill:#c8e6c9,stroke:#2e7d32
     style C fill:#d1c4e9,stroke:#4527a0
     style D fill:#424242,color:#fff,stroke:#212121
-``` 
+```
+
+### 5. State diagram Bước 4
 
 ```mermaid
 %%{
@@ -275,30 +261,42 @@ flowchart TD
   }
 }%%
 stateDiagram-v2
-    title Sơ đồ chi tiết Bước 4: Kiểm chứng & Làm chủ Kỹ năng
-
     [*] --> KienThucBanDau: Bắt đầu quá trình kiểm chứng
     
-    state KienThucBanDau: Có kiến thức ban đầu
-    state GiaiThich: Giải thích cho AI/Bạn bè
-    state NhanFeedback: Nhận Feedback & Debug
-    state MockInterview: Thực hiện Mock Interview
-    state LamChu: 🏆 LÀM CHỦ KỸ NĂNG
+    state KienThucBanDau {
+        [*] --> CoKienThuc: Có kiến thức ban đầu
+    }
+    
+    state GiaiThich {
+        [*] --> DangGiaiThich: Đang giải thích cho AI/Bạn bè
+    }
+    
+    state NhanFeedback {
+        [*] --> TimDiemMu: Nhận Feedback & Debug
+    }
+    
+    state MockInterview {
+        [*] --> ThucHienPhongVan: Thực hiện Mock Interview
+    }
+    
+    state LamChu {
+        [*] --> ThanhThao: 🏆 LÀM CHỦ KỸ NĂNG
+    }
 
     KienThucBanDau --> GiaiThich: Bắt đầu dạy lại
-    GiaiThich --> NhanFeedback: Nhờ tìm "điểm mù"
+    GiaiThich --> NhanFeedback: Nhờ tìm điểm mù
     
-    NhanFeedback --> KienThucBanDau: **[Phát hiện điểm mù]**<br>Quay lại củng cố kiến thức
-    NhanFeedback --> MockInterview: **[Giải thích trôi chảy]**<br>Tiến đến phỏng vấn thử
+    NhanFeedback --> KienThucBanDau: Phát hiện điểm mù - Quay lại củng cố
+    NhanFeedback --> MockInterview: Giải thích trôi chảy - Tiến đến phỏng vấn thử
     
-    MockInterview --> NhanFeedback: **[Trả lời chưa mượt]**<br>Cần cải thiện cách giải thích
-    MockInterview --> LamChu: **[Phỏng vấn xuất sắc]**<br>Giải thích bằng ngôn ngữ đơn giản nhất
+    MockInterview --> NhanFeedback: Trả lời chưa mượt - Cần cải thiện
+    MockInterview --> LamChu: Phỏng vấn xuất sắc - Giải thích đơn giản
     
     LamChu --> [*]
-``` 
--------------------------------------------------- 
+```
 
-### **SYSTEM PROMPT**
+
+## **SYSTEM PROMPT**
 
 **Bối cảnh (Context):**
 Bạn đóng vai một chuyên gia DBA với 50 năm kinh nghiệm thực chiến và là người hướng dẫn cá nhân . Tôi là học viên  đang muốn học DBA. Tôi sẽ cung cấp cho bạn một lộ trình học tập. Buổi học của chúng ta sẽ diễn ra dưới hình thức tôi chia sẻ màn hình và bạn sẽ hướng dẫn tôi từng bước.
