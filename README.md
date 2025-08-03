@@ -2,16 +2,17 @@
 
 ## **1️⃣ 🎯 ĐỊNH HƯỚNG & THIẾT KẾ ROADMAP**
 
-* 🎯 Xác định **mục tiêu rõ ràng** – Ví dụ: *“Nắm vững Project X trong 30 ngày”*
+* 🎯 Xác định **mục tiêu rõ ràng** – Ví dụ: *“📆 Nắm vững Project X trong 30 ngày”*
 
 * 🤖 Nhờ **AI thiết kế roadmap chi tiết**, gồm:
-  * 1️⃣ **Nội dung học tập**
-  * 2️⃣ **Bài tập thực chiến**
-  * 3️⃣ **Tài nguyên** (sách, web, video, …) → Sau đó up lên **NotebookLM** để nghiên cứu sâu.
 
-* 💡 **Pro tip:** Đặt 1 câu hỏi và dùng nhiều AI để tham gia thiết kế roadmap (**Gemini, ChatGPT, DeepSeek, Qwen, Grok**) → Chọn bản tốt nhất.
+  * 1️⃣ 📝 **Nội dung học tập**
+  * 2️⃣ 🛠️ **Bài tập thực chiến**
+  * 3️⃣ 📚 **Tài nguyên** (📖 sách, 🌐 web, 🎥 video, …) → Sau đó up lên **NotebookLM 🧠** để nghiên cứu sâu.
 
-⚠️ **Quan trọng:** Bước này cần **đầu tư nhiều thời gian** để **chọn lọc kỹ** và tìm ra **hướng đi tối ưu**, tránh học lan man.
+* 💡 **Pro tip:** Đặt 1 câu hỏi và dùng nhiều AI để tham gia thiết kế roadmap (**Gemini 🤖, ChatGPT 🧠, DeepSeek 🦾, Qwen 🦉, Grok 🐺**) → Chọn bản tốt nhất.
+
+⚠️ **Quan trọng:** ⏳ Cần **đầu tư thời gian** để **lọc và chọn hướng đi tối ưu**, tránh học lan man.
 
 ---
 
@@ -40,20 +41,21 @@
 
 ## **3️⃣ 📚 ĐÀO SÂU VỚI NOTEBOOKLM**
 
-* ⬆️ Upload tài nguyên vào NotebookLM để:
-  * 1️⃣ Vẽ **mindmap**.
-  * 2️⃣ Tạo **câu hỏi ôn tập**.
-  * 3️⃣ **Tự giải** để củng cố kiến thức.
+* ⬆️ **Upload** tài nguyên vào **NotebookLM 🧠** để:
 
-* 📄 Kết quả: Bộ tài liệu **hoàn chỉnh**, kèm sơ đồ Mermaid → **Publish lên GitHub**.
+  * 1️⃣ 🌳 Vẽ **mindmap** trực quan.
+  * 2️⃣ ❓ Tạo **câu hỏi ôn tập**.
+  * 3️⃣ 📝 **Tự giải** để củng cố kiến thức.
+
+* 📄 Kết quả: 📑 Bộ tài liệu **hoàn chỉnh**, kèm sơ đồ **Mermaid** → **Publish lên GitHub 🐙**.
 
 ---
 
 ## **4️⃣ 🎤 DẠY LẠI & MOCK INTERVIEW**
 
-* 👥 Giải thích kiến thức cho **AI hoặc bạn bè** → Nhờ họ **debug điểm mù**.
-* 🎬 Tổ chức **mock interview** → Thử giải thích bằng **ngôn ngữ đơn giản nhất**.
-* 🏆 Khi **dạy lại và phỏng vấn mượt mà** → Bạn đã **làm chủ kỹ năng**.
+* 👥 Giải thích kiến thức cho **AI 🤖 hoặc bạn bè 🧑‍🤝‍🧑** → Nhờ họ **debug điểm mù 🐞**.
+* 🎬 Tổ chức **mock interview 🎙️** → Giải thích bằng **ngôn ngữ đơn giản nhất 🗣️**.
+* 🏆 Khi **dạy lại và phỏng vấn mượt mà** → **Bạn đã làm chủ kỹ năng 🚀**.
 
 ---
 
