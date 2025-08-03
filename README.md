@@ -911,9 +911,9 @@ Hãy thêm đoạn này vào file main.py, chạy ứng dụng rồi kể cho t�
    - Thiết lập hệ thống backup tự động hàng tuần
    - Kiểm tra và khắc phục một lỗi giả định trên hệ thống
 
-## DEMO SYSTEM PROMPT
+---
 
-## SYSTEM PROMPT
+## DEMO SYSTEM PROMPT
 
 ### 1. Bối cảnh
 
