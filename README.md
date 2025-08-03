@@ -48,8 +48,9 @@
 * 🎬 Tổ chức **mock interview** → Thử giải thích bằng **ngôn ngữ đơn giản nhất**.
 * 🏆 Khi **dạy lại và phỏng vấn mượt mà** → Bạn đã **làm chủ kỹ năng**.
 
+---
+
 ## SƠ ĐỒ MERMAID LUỒNG QUY TRÌNH
-Đây là phiên bản đã sửa lỗi cho tất cả các sơ đồ:
 
 ### 1. Sơ đồ flowchart tổng quan
 
