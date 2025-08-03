@@ -237,10 +237,13 @@ sequenceDiagram
         GL-->>HV: 📄 Cung cấp tài liệu tổng kết & sơ đồ trực quan
     end
 
-    HV->>HV: 🔄 Quay lại tự thực hành để nhớ lâu
+    rect rgb(255, 249, 196)
+        HV->>HV: 🔄 Quay lại tự thực hành
+        HV->>HV: ✍️ Cập nhật lại tài liệu
+    end
 
     rect rgb(213, 222, 228)
-        HV->>+GH: 🚀 Sau khi thực hành → Đẩy tài liệu lên GitHub
+        HV->>+GH: 🚀 Sau khi thực hành + Cập nhật lại tài liệu → Đẩy tài liệu lên GitHub
         GH-->>-HV: ✅ Lưu trữ thành công
     end
 ```
