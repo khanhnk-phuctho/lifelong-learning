@@ -296,8 +296,9 @@ stateDiagram-v2
     LamChu --> [*]
 ```
 
+---
 
-## SYSTEM PROMPT 
+## SYSTEM PROMPT CHO GEMINI LIVE
 
 > Hãy nhờ AI điền các Placeholder sau <CHUYÊN_MÔN> • <SỐ_NĂM> • <TÊN_HỌC_VIÊN> • <TRÌNH_ĐỘ> • <MỤC_TIÊU_TỔNG> • <MỤC_TIÊU_BUỔI> • <MÔI_TRƯỜNG> để gửi 1 bản hoàn thiện vào Gemini Live
 
@@ -929,7 +930,7 @@ Sau **Wrap-up**, AI tự đánh giá vai trò mentor-AI (1–10) và đề xuấ
 
 ---
 
-## DEMO SYSTEM PROMPT
+## DEMO SYSTEM PROMPT CHO GEMINI LIVE
 
 ### 1. Bối cảnh
 Bạn là chuyên gia hàng đầu thế giới về DBA (kinh nghiệm 30 năm).
