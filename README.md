@@ -29,12 +29,10 @@
   * 5️⃣ 🐢 Nếu quá tải → Yêu cầu **chậm hơn, từng bước, tập trung thực hành**.
   * 6️⃣ ⏱️ **Pomodoro**: 25 phút học – 5 phút nghỉ.
   * 7️⃣ 🖥️ **Share màn hình chỉ khi cần (10%)**, 90% chat là đủ → Tập trung, tiết kiệm thời gian.
-  * 8️⃣ 📝 Sau mỗi bài → Nhờ AI:
-
+  * 8️⃣ 📝 🛑**Khi cảm thấy không tiếp thu nổi** → **Dừng học, chuyển sang viết tài liệu** để hệ thống hóa và đào sâu lỗ hổng kiến thức trước khi tiếp tục.
     * ✍️ **Viết lại bài hướng dẫn** đơn giản cho người mới.
     * 🗺️ **Tạo sơ đồ Mermaid** trực quan.
-  * 9️⃣ 🔄 **Tự quay lại thực hành** ngay sau buổi học để khắc sâu kiến thức và **Cập nhật lại tài liệu** để người mới đọc cũng có thể tự thực hành được.
-
+  * 9️⃣ 🔄 **Tự quay lại thực hành** ngay sau buổi học để khắc sâu kiến thức và tiếp tục **Cập nhật lại tài liệu** để người mới đọc cũng có thể tự thực hành được.
 * 🚀 Sau khi tự thực hành xong + Cập nhật tài liệu → **Đẩy toàn bộ tài liệu lên GitHub 🐙** để quản lý và chia sẻ.
 
 ---
@@ -80,6 +78,7 @@ flowchart TB
     classDef warning fill:#f5b7b1,stroke:#c0392b,stroke-width:2px,color:#fff;
     classDef aiNode fill:#a3e4d7,stroke:#48c9b0,stroke-width:2px,color:#0e6251;
     classDef actionNode fill:#85c1e9,stroke:#3498db,stroke-width:2px,color:#fff;
+    classDef criticalNode fill:#f1948a,stroke:#c0392b,stroke-width:3px,color:#fff;
 
     %% --- SƠ ĐỒ CHÍNH (MAIN FLOW) ---
     Start([Start: Bắt Đầu Học Tập Suốt Đời]):::startStyle
@@ -120,13 +119,23 @@ flowchart TB
         SlowDown[Dạy Lại Nếu Quá Nhanh]:::step2_node
         Pomodoro[Pomodoro 25/5]:::step2_node
         ShareScreen[Share Màn Hình 10%]:::step2_node
-        AfterLesson[Sau Mỗi Bài → Viết Lại + Sơ Đồ Mermaid]:::actionNode
-        SelfPractice[Tự Thực Hành Để Nhớ + Cập nhật lại tài liệu]:::actionNode
+        
+        subgraph OverloadBlock [🛑 Khi Không Thể Tiếp Thu Nổi]
+            StopAndWrite[1️⃣ Viết Tài Liệu cho người mới]:::criticalNode
+            MermaidDiagram[2️⃣ Bổ sung thêm nhiều Sơ Đồ Mermaid]:::actionNode
+            DeepDive[3️⃣ Tham khảo bước 3 dùng notebookLM để đào sâu kiến thức]:::actionNode
+        end
+
+        SelfPractice[Tự Thực Hành Để Nhớ + Cập Nhật Lại Tài Liệu]:::actionNode
         PushGit[Đẩy Tài Liệu Lên GitHub]:::actionNode
 
         Prompt --> ProTips
         ProTips --> PracticeFocus & StepByStep & NoOverload & AskFeedback & SlowDown & Pomodoro & ShareScreen
-        Prompt --> AfterLesson --> SelfPractice --> PushGit
+        Prompt --> OverloadBlock
+        OverloadBlock --> StopAndWrite
+        OverloadBlock --> MermaidDiagram
+        OverloadBlock --> DeepDive
+        OverloadBlock --> SelfPractice --> PushGit
     end
 
     %% --- BƯỚC 3 ---
@@ -218,24 +227,28 @@ sequenceDiagram
         
         rect rgb(225, 245, 254)
             GL->>HV: 🪜 Dạy từng bước (1 lệnh/khái niệm mỗi lần)
-            Note right of GL: 🛠️ Chú trọng thực hành hơn lý thuyết
+            Note right of GL: 🛠️ Ưu tiên thực hành hơn lý thuyết
         end
 
-        HV->>HV: ⌨️ Gõ lại lệnh & thực hành ngay lập tức
+        HV->>HV: ⌨️ Gõ lại lệnh & thực hành ngay
 
         rect rgb(255, 249, 196)
             GL->>HV: ⏸️ Hỏi tốc độ, xin feedback
-            HV->>GL: ✍️ Phản hồi: Tiếp tục / Dạy chậm hơn
+            HV->>GL: ✍️ Phản hồi: Tiếp tục / Chậm hơn
+        end
+
+        alt 🛑 Cảm thấy không tiếp thu nổi
+            rect rgb(255, 205, 210)
+                HV->>HV: ✋ Dừng học
+                HV->>GL: 📝 Yêu cầu viết tài liệu + tạo sơ đồ Mermaid
+                GL-->>HV: 📄 Tài liệu tổng kết & sơ đồ trực quan
+                Note right of HV: 🔎 Hệ thống hóa & đào sâu lỗ hổng kiến thức
+            end
         end
 
     end
     
     Note over HV,GL: 🔄 Lặp lại cho đến khi hoàn thành bài học
-
-    rect rgb(239, 235, 233)
-        HV->>GL: 📝 Yêu cầu viết lại bài + tạo sơ đồ Mermaid
-        GL-->>HV: 📄 Cung cấp tài liệu tổng kết & sơ đồ trực quan
-    end
 
     rect rgb(255, 249, 196)
         HV->>HV: 🔄 Quay lại tự thực hành
@@ -243,7 +256,7 @@ sequenceDiagram
     end
 
     rect rgb(213, 222, 228)
-        HV->>+GH: 🚀 Sau khi thực hành + Cập nhật lại tài liệu → Đẩy tài liệu lên GitHub
+        HV->>+GH: 🚀 Sau khi thực hành + cập nhật tài liệu → Đẩy lên GitHub
         GH-->>-HV: ✅ Lưu trữ thành công
     end
 ```
