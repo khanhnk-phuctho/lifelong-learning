@@ -33,9 +33,9 @@
 
     * ✍️ **Viết lại bài hướng dẫn** đơn giản cho người mới.
     * 🗺️ **Tạo sơ đồ Mermaid** trực quan.
-  * 9️⃣ 🔄 **Tự quay lại thực hành** ngay sau buổi học để khắc sâu kiến thức.
+  * 9️⃣ 🔄 **Tự quay lại thực hành** ngay sau buổi học để khắc sâu kiến thức và **Cập nhật lại tài liệu** để người mới đọc cũng có thể tự thực hành được.
 
-* 🚀 Sau khi tự thực hành xong → **Đẩy toàn bộ tài liệu lên GitHub 🐙** để quản lý và chia sẻ.
+* 🚀 Sau khi tự thực hành xong + Cập nhật tài liệu → **Đẩy toàn bộ tài liệu lên GitHub 🐙** để quản lý và chia sẻ.
 
 ---
 
@@ -121,7 +121,7 @@ flowchart TB
         Pomodoro[Pomodoro 25/5]:::step2_node
         ShareScreen[Share Màn Hình 10%]:::step2_node
         AfterLesson[Sau Mỗi Bài → Viết Lại + Sơ Đồ Mermaid]:::actionNode
-        SelfPractice[Tự Thực Hành Để Nhớ]:::actionNode
+        SelfPractice[Tự Thực Hành Để Nhớ + Cập nhật lại tài liệu]:::actionNode
         PushGit[Đẩy Tài Liệu Lên GitHub]:::actionNode
 
         Prompt --> ProTips
