@@ -17,17 +17,24 @@
 
 ## **2️⃣ 🤖 TRIỂN KHAI & THỰC CHIẾN VỚI AI**
 
-* 📝 Dùng **prompt** để Gemini Live (**chế độ Text**) hướng dẫn từng bài học.
+* 📝 Dùng **prompt** để Gemini Live (**⚡ Flash Lite mới nhất – chế độ Text, không cần Audio**) hướng dẫn từng bài học.
 
 * 💡 **Pro tip:**
-  * 1️⃣ Chú trọng **thực hành hơn lý thuyết** – **“Trăm hay không bằng tay quen”**.
-  * 2️⃣ Yêu cầu AI **dạy từng bước một** → Học viên phải **gõ từng lệnh xong mới được tiếp tục**.
-  * 3️⃣ **Không dạy nhiều lệnh cùng lúc**, tránh quá tải.
-  * 4️⃣ Sau mỗi phần lý thuyết → AI **dừng lại hỏi người học** về tốc độ, góp ý → Chỉ khi ổn mới tiếp tục.
-  * 5️⃣ Nếu cảm thấy thấy AI dạy quá nhiều kiến thức trong 1 lần → Yêu cầu AI **dạy lại chậm lại, dạy lại từng bước** và chú trọng **thực hành hơn lý thuyết**
-* 🔄 Sau mỗi bài → Nhờ AI **viết lại bài hướng dẫn** cho người mới + **sơ đồ Mermaid** trực quan.
 
-* 🚀 Đẩy toàn bộ tài liệu lên **GitHub**.
+  * 1️⃣ 🛠️ Chú trọng **thực hành hơn lý thuyết** – **“Trăm hay không bằng tay quen”**.
+  * 2️⃣ 🪜 Yêu cầu AI **dạy từng bước một** → Học viên **gõ từng lệnh xong mới được tiếp tục**.
+  * 3️⃣ 🚫 **Không dạy nhiều lệnh cùng lúc**, tránh quá tải.
+  * 4️⃣ ⏸️ Sau mỗi phần → AI **dừng và hỏi người học** về tốc độ → Chỉ khi ổn mới tiếp tục.
+  * 5️⃣ 🐢 Nếu quá tải → Yêu cầu **chậm hơn, từng bước, tập trung thực hành**.
+  * 6️⃣ ⏱️ **Pomodoro**: 25 phút học – 5 phút nghỉ.
+  * 7️⃣ 🖥️ **Share màn hình chỉ khi cần (10%)**, 90% chat là đủ → Tập trung, tiết kiệm thời gian.
+  * 8️⃣ 📝 Sau mỗi bài → Nhờ AI:
+
+    * ✍️ **Viết lại bài hướng dẫn** đơn giản cho người mới.
+    * 🗺️ **Tạo sơ đồ Mermaid** trực quan.
+  * 9️⃣ 🔄 **Tự quay lại thực hành** ngay sau buổi học để khắc sâu kiến thức.
+
+* 🚀 Sau khi tự thực hành xong → **Đẩy toàn bộ tài liệu lên GitHub 🐙** để quản lý và chia sẻ.
 
 ---
 
@@ -165,38 +172,40 @@ sequenceDiagram
   }
 }%%
 sequenceDiagram
-    participant HV as Học viên
-    participant GL as Gemini Live (Text)
-    participant GH as GitHub
+    participant HV as 🧑‍🎓 Học viên
+    participant GL as 🤖 Gemini Live (Flash Lite - Text)
+    participant GH as 🐙 GitHub
 
-    HV->>+GL: Gửi prompt yêu cầu bắt đầu hướng dẫn bài học
+    HV->>+GL: 📝 Gửi prompt yêu cầu bắt đầu bài học
 
-    loop Vòng lặp Học & Thực hành (cho mỗi phần kiến thức)
+    loop 🔁 Vòng lặp Học & Thực hành (cho mỗi phần)
         
         rect rgb(225, 245, 254)
-            GL->>HV: Dạy từng bước một (1 lệnh/khái niệm mỗi lần)
-            Note right of GL: Chú trọng thực hành hơn lý thuyết
+            GL->>HV: 🪜 Dạy từng bước (1 lệnh/khái niệm mỗi lần)
+            Note right of GL: 🛠️ Chú trọng thực hành hơn lý thuyết
         end
 
-        HV->>HV: Tự gõ lại từng lệnh, thực hành ngay lập tức
+        HV->>HV: ⌨️ Gõ lại lệnh & thực hành ngay lập tức
 
         rect rgb(255, 249, 196)
-            GL->>HV: Dừng lại và hỏi về tốc độ và góp ý
-            HV->>GL: Phản hồi: Tiếp tục hoặc yêu cầu dạy chậm lại
+            GL->>HV: ⏸️ Hỏi tốc độ, xin feedback
+            HV->>GL: ✍️ Phản hồi: Tiếp tục / Dạy chậm hơn
         end
 
     end
     
-    Note over HV,GL: Vòng lặp tiếp tục cho đến khi hoàn thành bài học
+    Note over HV,GL: 🔄 Lặp lại cho đến khi hoàn thành bài học
 
     rect rgb(239, 235, 233)
-        HV->>GL: Yêu cầu viết lại bài hướng dẫn hoàn chỉnh + tạo sơ đồ Mermaid
-        GL-->>HV: Cung cấp tài liệu tổng kết & sơ đồ trực quan
+        HV->>GL: 📝 Yêu cầu viết lại bài + tạo sơ đồ Mermaid
+        GL-->>HV: 📄 Cung cấp tài liệu tổng kết & sơ đồ trực quan
     end
 
+    HV->>HV: 🔄 Quay lại tự thực hành để nhớ lâu
+
     rect rgb(213, 222, 228)
-        HV->>+GH: Đẩy toàn bộ tài liệu và mã nguồn lên GitHub
-        GH-->>-HV: Lưu trữ thành công
+        HV->>+GH: 🚀 Sau khi thực hành → Đẩy tài liệu lên GitHub
+        GH-->>-HV: ✅ Lưu trữ thành công
     end
 ```
 
