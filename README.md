@@ -64,58 +64,92 @@
 ### 1. Sơ đồ flowchart tổng quan
 
 ```mermaid
-flowchart TD
-    subgraph main ["Lộ Trình 4 Bước Học Kỹ Năng Cùng AI"]
-        Start[Start: Bắt Đầu Học Tập Suốt Đời] --> Step1[Định Hướng & Thiết Kế Roadmap]
-        Step1 --> Step2[Triển Khai & Thực Chiến Với AI]
-        Step2 --> Step3[Đào Sâu Với NotebookLM]
-        Step3 --> Step4[Dạy Lại & Mock Interview]
-        Step4 --> End[End: Làm Chủ Kỹ Năng]
+flowchart TB
+    %% --- ĐỊNH NGHĨA PHONG CÁCH (STYLE DEFINITIONS) ---
+    classDef startStyle fill:#2ecc71,color:#fff,stroke:#27ae60,stroke-width:2px;
+    classDef endStyle fill:#f1c40f,color:#fff,stroke:#f39c12,stroke-width:2px;
+    
+    %% Màu cho từng bước
+    classDef step1_node fill:#a9cce3,stroke:#5499c7,stroke-width:2px;
+    classDef step2_node fill:#f5cba7,stroke:#f39c12,stroke-width:2px;
+    classDef step3_node fill:#d7bde2,stroke:#8e44ad,stroke-width:2px;
+    classDef step4_node fill:#a9dfbf,stroke:#27ae60,stroke-width:2px;
+
+    %% Màu cho các node đặc biệt
+    classDef proTip fill:#f9e79f,stroke:#f1c40f,stroke-width:2px,color:#34495e;
+    classDef warning fill:#f5b7b1,stroke:#c0392b,stroke-width:2px,color:#fff;
+    classDef aiNode fill:#a3e4d7,stroke:#48c9b0,stroke-width:2px,color:#0e6251;
+    classDef actionNode fill:#85c1e9,stroke:#3498db,stroke-width:2px,color:#fff;
+
+    %% --- SƠ ĐỒ CHÍNH (MAIN FLOW) ---
+    Start([Start: Bắt Đầu Học Tập Suốt Đời]):::startStyle
+    End([🏆 End: Làm Chủ Kỹ Năng]):::endStyle
+
+    Start --> Step1
+    Step1 --> Step2
+    Step2 --> Step3
+    Step3 --> Step4
+    Step4 --> End
+
+    %% --- BƯỚC 1 ---
+    subgraph Step1 [1️⃣ Định Hướng & Thiết Kế Roadmap]
+        Goal[Xác Định Mục Tiêu Rõ Ràng]:::step1_node
+        AI_Design[Nhờ AI Thiết Kế Roadmap]:::aiNode
+        Content[Nội Dung Học Tập]:::step1_node
+        Exercises[Bài Tập Thực Chiến]:::step1_node
+        Resources[Tài Nguyên - Sách, Web, Video]:::step1_node
+        Upload_Notebook[Upload NotebookLM để nghiên cứu tại BƯỚC 3]:::actionNode
+        ProTip1[💡 Dùng Nhiều AI]:::proTip
+        Warning[⚠️ Đầu Tư Thời Gian]:::warning
+        
+        Goal --> AI_Design
+        AI_Design --> Content & Exercises & Resources
+        Resources --> Upload_Notebook
+        ProTip1 --> AI_Design
+        Warning --> Goal
     end
 
-    subgraph step1_detail ["Chi Tiết Bước 1: Định Hướng & Thiết Kế Roadmap"]
-        Goal[🎯 Xác Định Mục Tiêu Rõ Ràng] --> AI_Design[🤖 Nhờ AI Thiết Kế Roadmap Chi Tiết]
-        AI_Design --> Content[Nội Dung Học Tập]
-        AI_Design --> Exercises[Bài Tập Thực Chiến]
-        AI_Design --> Resources[Tài Nguyên: Sách, Web, Video]
-        Resources --> Upload_Notebook[Upload Lên NotebookLM Để Nghiên Cứu Sâu]
-        ProTip1[💡 Pro Tip: Đặt 1 Câu Hỏi Và Dùng Nhiều AI] --> AI_Design
-        Warning[⚠️ Quan Trọng: Đầu Tư Nhiều Thời Gian] --> Goal
-    end
-    Step1 --> Goal
+    %% --- BƯỚC 2 ---
+    subgraph Step2 [2️⃣ Triển Khai & Thực Chiến Với AI]
+        Prompt[Prompt → Gemini Live Flash Lite Text]:::aiNode
+        ProTips[💡 Pro Tips]:::proTip
+        PracticeFocus[Thực Hành > Lý Thuyết]:::step2_node
+        StepByStep[Dạy Từng Bước]:::step2_node
+        NoOverload[Tránh Quá Tải]:::step2_node
+        AskFeedback[Hỏi Feedback]:::step2_node
+        SlowDown[Dạy Lại Nếu Quá Nhanh]:::step2_node
+        Pomodoro[Pomodoro 25/5]:::step2_node
+        ShareScreen[Share Màn Hình 10%]:::step2_node
+        AfterLesson[Sau Mỗi Bài → Viết Lại + Sơ Đồ Mermaid]:::actionNode
+        SelfPractice[Tự Thực Hành Để Nhớ]:::actionNode
+        PushGit[Đẩy Tài Liệu Lên GitHub]:::actionNode
 
-    subgraph step2_detail ["Chi Tiết Bước 2: Triển Khai & Thực Chiến Với AI"]
-        Prompt[📝 Dùng Prompt Để Gemini Live] --> ProTips[💡 Pro Tips]
-        ProTips --> PracticeFocus[Chú Trọng Thực Hành Hơn Lý Thuyết]
-        ProTips --> StepByStep[Yêu Cầu AI Dạy Từng Bước Một]
-        ProTips --> NoOverload[Không Dạy Nhiều Lệnh Cùng Lúc]
-        ProTips --> AskFeedback[Sau Mỗi Phần Lý Thuyết AI Dừng Lại Hỏi]
-        ProTips --> SlowDown[Nếu AI Dạy Quá Nhiều Yêu Cầu Dạy Lại]
-        AfterLesson[🔄 Sau Mỗi Bài Nhờ AI Viết Lại] --> PushGit[🚀 Đẩy Toàn Bộ Tài Liệu Lên GitHub]
-        Prompt --> AfterLesson
+        Prompt --> ProTips
+        ProTips --> PracticeFocus & StepByStep & NoOverload & AskFeedback & SlowDown & Pomodoro & ShareScreen
+        Prompt --> AfterLesson --> SelfPractice --> PushGit
     end
-    Step2 --> Prompt
 
-    subgraph step3_detail ["Chi Tiết Bước 3: Đào Sâu Với NotebookLM"]
-        Upload[⬆️ Upload Tài Nguyên Vào NotebookLM] --> Mindmap[Vẽ Mindmap]
-        Upload --> Quiz[Tạo Câu Hỏi Ôn Tập]
-        Upload --> SelfSolve[Tự Giải Để Củng Cố Kiến Thức]
-        Result[📄 Kết Quả: Bộ Tài Liệu Hoàn Chỉnh] --> Upload
+    %% --- BƯỚC 3 ---
+    subgraph Step3 [3️⃣ Đào Sâu Với NotebookLM]
+        Upload[Upload Tài Nguyên]:::actionNode
+        Mindmap[Vẽ Mindmap]:::step3_node
+        Quiz[Tạo Câu Hỏi Ôn Tập]:::step3_node
+        SelfSolve[Tự Giải]:::step3_node
+        Result[Bộ Tài Liệu + Sơ Đồ Mermaid]:::step3_node
+        
+        Result --> Upload
+        Upload --> Mindmap & Quiz & SelfSolve
     end
-    Step3 --> Upload
 
-    subgraph step4_detail ["Chi Tiết Bước 4: Dạy Lại & Mock Interview"]
-        Explain[👥 Giải Thích Kiến Thức Cho AI Hoặc Bạn Bè] --> Mock[🎬 Tổ Chức Mock Interview]
-        Mastery[🏆 Khi Dạy Lại Và Phỏng Vấn Mượt Mà] --> Explain
+    %% --- BƯỚC 4 ---
+    subgraph Step4 [4️⃣ Dạy Lại & Mock Interview]
+        Explain[Giải Thích Cho AI/Bạn Bè]:::step4_node
+        Mock[Mock Interview]:::aiNode
+        Mastery[Làm Chủ Khi Dạy Lại + Phỏng Vấn Mượt]:::step4_node
+        
+        Explain --> Mock
+        Mastery --> Explain
     end
-    Step4 --> Explain
-
-    style Start fill:#FFEB3B,stroke:#FFC107,color:#000
-    style End fill:#4CAF50,stroke:#388E3C,color:#FFF
-    style Step1 fill:#2196F3,stroke:#1976D2,color:#FFF
-    style Step2 fill:#9C27B0,stroke:#7B1FA2,color:#FFF
-    style Step3 fill:#FF9800,stroke:#F57C00,color:#000
-    style Step4 fill:#E91E63,stroke:#C2185B,color:#FFF
 ```
 
 ### 2. Sequence diagram Bước 1
