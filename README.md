@@ -23,19 +23,21 @@
 * 💡 **Pro tip:**
 
   * 1️⃣ ✍️ Học chắc các **khái niệm cốt lõi** theo **phương pháp Socrat** với chức năng **Học có hướng dẫn** có sẵn trên **Gemini** hoặc chức năng **Study and learn** tương tự trên chatGPT để củng cố kiến thức nền.
-    * 🧱 **Đừng xem nhẹ các khái niệm:** Các khái niệm chính là những viên gạch nền móng. Nền móng càng chắc, "tòa nhà kỹ năng" của bạn càng cao và vững chãi, giúp bạn linh hoạt và sáng tạo hơn khi đối mặt với các công cụ và thử thách mới.
+    * 🧱 **Đừng xem nhẹ các khái niệm:** Các khái niệm chính là những viên gạch nền móng. **MÓNG KHÔNG VỮNG THÌ CÀNG XÂY CAO CÀNG DỄ ĐỔ**
+    * 💡 **Mẹo nhỏ** là nhờ AI **đóng vai một đứa trẻ 5 tuổi**. Nếu bạn giải thích được cho một đứa trẻ, nghĩa là bạn đã thực sự làm chủ kiến thức đó.
   * 2️⃣ 🪜 Yêu cầu AI **dạy từng bước một** → Học viên **gõ từng lệnh xong mới được tiếp tục**.
   * 3️⃣ 🚫 **Không dạy nhiều lệnh cùng lúc**, tránh quá tải. Nếu quá tải → Yêu cầu **chậm hơn, từng bước, tập trung thực hành**.
   * 4️⃣ ⏸️ Sau mỗi phần → AI **dừng và hỏi người học** về tốc độ → Chỉ khi ổn mới tiếp tục.
   * 5️⃣ ⏱️Thực hành học theo phương pháp **Pomodoro**: 25 phút học – 5 phút nghỉ.
   * 6️⃣ 🖥️ **Chỉ Share màn hình chỉ khi cần (10%)**, 90% chat là đủ → Tập trung, tiết kiệm thời gian.
   * 7️⃣ 📝 🛑**Khi cảm thấy không tiếp thu nổi** → **Dừng học, chuyển sang viết tài liệu** để hệ thống hóa và đào sâu lỗ hổng kiến thức trước khi tiếp tục.
+    * 🧱 Rà soát lại các **khái niệm** còn chưa vững, **MÓNG KHÔNG VỮNG THÌ CÀNG XÂY CAO CÀNG DỄ ĐỔ**
     * ✍️ **Viết lại bài hướng dẫn** đơn giản cho người mới.
     * 🗺️ **Tạo sơ đồ Mermaid** trực quan.
   * 8️⃣ 🔄 **Tự quay lại thực hành** ngay sau buổi học để khắc sâu kiến thức và tiếp tục **Cập nhật lại tài liệu** để người mới đọc cũng có thể tự thực hành được.
     
 * 🎧 **Tư duy thành tiếng với AI:** Trong thời gian rảnh, thay vì chỉ gõ phím, hãy thử **trò chuyện bằng giọng nói (Voice Call với ChatGPT /Native Audio với Gemini)** Bạn có thể đọc lại tài liệu rồi thảo luận, giải thích lại các khái niệm đã học cho AI nghe. Đây là cách tuyệt vời để ôn tập chủ động, sắp xếp lại suy nghĩ và củng cố kiến thức một cách tự nhiên.
-* 🚀 Sau khi tự thực hành xong + Cập nhật tài liệu → **Đẩy toàn bộ tài liệu lên GitHub 🐙** để quản lý và chia sẻ.
+* 🚀 Sau khi tự thực hành xong + Cập nhật tài liệu → **Đẩy toàn bộ tài liệu lên GitHub 📂** để quản lý và chia sẻ.
 
 ---
 
