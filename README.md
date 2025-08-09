@@ -469,7 +469,9 @@ Sau **Wrap-up**, AI tự đánh giá vai trò mentor-AI (1–10) và đề xuấ
 
 ---
 
-## DEMO SYSTEM PROMPT CHO GEMINI LIVE
+# HƯỚNG DẪN DEMO
+
+## 1. DEMO SYSTEM PROMPT CHO GEMINI LIVE
 
 ### 1. Bối cảnh
 Bạn là chuyên gia hàng đầu thế giới về DBA (kinh nghiệm 30 năm).
@@ -577,9 +579,9 @@ Sau **Wrap-up**, AI tự đánh giá vai trò mentor-AI (1–10) và đề xuấ
 
 ---
 
-## **DEMO Roadmap DBA**
+## 2. DEMO Xây dựng Roadmap DBA
 
-# **I. Lộ trình tổng quan**
+**I. Lộ trình tổng quan**
 ```mermaid
 gitGraph
    commit id: "Khởi Đầu"
@@ -625,7 +627,7 @@ gitGraph
    commit id: "Architect & Consultant"
 ``` 
 
-## **1. Foundation (3 tháng)**
+**1. Foundation (3 tháng)**
 
 - Hệ thống cơ bản (CPU/RAM/Disk)
 - Cài & dùng Linux (VirtualBox)
@@ -674,7 +676,7 @@ gitGraph
    commit id: "Chuyên Gia DBA"
 ```
 
-## **2. Junior DBA – Setup & Vận Hành Oracle (6 tháng)**
+**2. Junior DBA – Setup & Vận Hành Oracle (6 tháng)**
 
 - Cài Oracle, hiểu kiến trúc CDB/PDB
 - Tạo user, trace log, role
@@ -748,7 +750,7 @@ gitGraph
   commit id: "✅ Test Backup Thành Công"
 ``` 
 
-## **3. Mid-Level DBA – Tối Ưu & Bảo Vệ (9 tháng)**
+**3. Mid-Level DBA – Tối Ưu & Bảo Vệ (9 tháng)**
 
 - SQL/Instance tuning (AWR/ASH)
 - Security nâng cao (TDE/VPD)
@@ -856,7 +858,7 @@ gitGraph
   commit id: "🎤 Trình Bày Tuning Report"
 ``` 
 
-## **4. Senior DBA – Cloud & Tự Động Hóa (Liên tục)**
+**4. Senior DBA – Cloud & Tự Động Hóa (Liên tục)**
 
 - Thiết kế HA (RAC/Data Guard)
 - Terraform/Ansible tự động hoá
@@ -958,9 +960,9 @@ gitGraph
 ``` 
 ---
 
-## **DEMO Lộ Trình Học Linux Cho Người Mới Bắt Đầu**
+## 2. DEMO Lộ Trình Học Linux Cho Người Mới Bắt Đầu
 
-### **1. Giới Thiệu Và Nền Tảng Linux**  
+**1. Giới Thiệu Và Nền Tảng Linux**  
 🎯 **Mục tiêu**: Hiểu Linux là gì, tại sao dùng. 
 
 **Nội dung học**:  
@@ -972,7 +974,7 @@ gitGraph
    - Distro (Ubuntu, Mint, Fedora...)
    - Shell - cách giao tiếp với máy tính
 
-### **2. Cài Đặt Và Thiết Lập Môi Trường**   
+**2. Cài Đặt Và Thiết Lập Môi Trường**   
 🎯 **Mục tiêu**: Có môi trường Linux để thực hành, làm quen giao diện.  
 
 **Nội dung học**:  
@@ -1006,7 +1008,7 @@ gitGraph
    - Video: "How to install Ubuntu on VirtualBox"
    - Ubuntu Desktop Guide (tiếng Việt)
 
-### **3. Làm Quen Với Terminal & Lệnh Cơ Bản**   
+**3. Làm Quen Với Terminal & Lệnh Cơ Bản**   
 
 🎯 **Mục tiêu**: Thành thạo các lệnh thiết yếu.  
 
@@ -1047,7 +1049,7 @@ gitGraph
    - "Linux Command Line for Beginners" (free PDF)
    - Interactive terminal: linuxjourney.com
 
-### **4. Quản Lý File Và Thư Mục**  
+**4. Quản Lý File Và Thư Mục**  
 🎯 **Mục tiêu**: Thành thạo thao tác với file/thư mục - kỹ năng cốt lõi nhất.   
 
 **Nội dung học**:  
@@ -1095,7 +1097,7 @@ gitGraph
    - Interactive exercises trên cmdchallenge.com
    - "Linux File System" tutorial
 
-### **5. Quyền Truy Cập Và Bảo Mật Cơ Bản**  
+**5. Quyền Truy Cập Và Bảo Mật Cơ Bản**  
 🎯 **Mục tiêu**: Hiểu và quản lý quyền file để tránh lỗi "permission denied".  
 
 **Nội dung học**:  
@@ -1137,7 +1139,7 @@ gitGraph
    - "Linux Permissions Explained" video
    - Ubuntu Security Guide
 
-### **6. Quản Lý Không Gian Đĩa Và File System**  
+**6. Quản Lý Không Gian Đĩa Và File System**  
 🎯 **Mục tiêu**: Hiểu cách Linux quản lý ổ đĩa, kiểm tra dung lượng, xử lý ổ đĩa đầy, và thao tác gắn kết ổ đĩa cơ bản.
 
 **Nội dung học**:  
@@ -1202,7 +1204,7 @@ gitGraph
    - Video: [How to Clean Up Disk Space on Ubuntu](https://youtu.be/4K4sMvLy7d0)  
    - Guide: [Mounting Drives in Linux](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)  
 
-### **7. Cài Đặt Phần Mềm**  
+**7. Cài Đặt Phần Mềm**  
 🎯 **Mục tiêu**: Biết cách cài đặt và quản lý ứng dụng an toàn.  
 
 **Nội dung học**:  
@@ -1237,7 +1239,7 @@ gitGraph
    - Ubuntu Package Management Guide
    - APT cheat sheet
 
-### **8. Quản Lý Tiến Trình**  
+**8. Quản Lý Tiến Trình**  
 🎯 **Mục tiêu**: Giám sát và điều khiển các chương trình đang chạy.  
 
 **Nội dung học**:  
@@ -1279,7 +1281,7 @@ gitGraph
    - "Linux Process Management" tutorial
    - htop explained
 
-### **9. Mạng Và Kết Nối**  
+**9. Mạng Và Kết Nối**  
 🎯 **Mục tiêu**: Kết nối Linux với internet và máy tính khác.  
 
 **Nội dung học**:  
@@ -1316,7 +1318,7 @@ gitGraph
    - "SSH Essentials" guide
    - Basic networking for Linux
 
-### **10. Shell Scripting Cơ Bản**  
+**10. Shell Scripting Cơ Bản**  
 🎯 **Mục tiêu**: Tự động hóa công việc lặp đi lặp lại.  
 
 **Nội dung học**:  
@@ -1355,7 +1357,7 @@ gitGraph
    - "Bash Scripting Tutorial for Beginners"
    - Cron job generator online
 
-### **11. Quản Lý Ổ Đĩa Với LVM (Logical Volume Manager)**  
+**11. Quản Lý Ổ Đĩa Với LVM (Logical Volume Manager)**  
 🎯 **Mục tiêu**: Hiểu và sử dụng LVM để quản lý không gian lưu trữ linh hoạt, đặc biệt là mở rộng dung lượng ổ cứng khi cần.  
 **Nội dung học**:  
 1. 💾 **Giới thiệu về LVM**:  
@@ -1418,7 +1420,7 @@ gitGraph
    - Ubuntu LVM Guide (tài liệu chính thức)
 
 
-### **12. Troubleshooting Và Backup**  
+**12. Troubleshooting Và Backup**  
 🎯 **Mục tiêu**: Xử lý sự cố và bảo vệ dữ liệu.  
 
 **Nội dung học**:  
@@ -1453,7 +1455,7 @@ gitGraph
    - "Linux Troubleshooting Guide"
    - Backup strategies for home users
 
-### **13. Tổng Kết Và Bước Tiếp Theo**  
+**13. Tổng Kết Và Bước Tiếp Theo**  
 🎯 **Mục tiêu**: Củng cố kiến thức và định hướng phát triển.  
 **Nội dung học**:  
 1. 📖 **Review kiến thức đã học**:  
