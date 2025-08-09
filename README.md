@@ -1,4 +1,4 @@
-# 🚀 **LỘ TRÌNH 4 BƯỚC HỌC KỸ NĂNG CÙNG AI – HỌC TẬP SUỐT ĐỜI**
+# 🚀 **LỘ TRÌNH 3 BƯỚC HỌC KỸ NĂNG CÙNG AI – HỌC TẬP SUỐT ĐỜI**
 
 ## **1️⃣ 🎯 ĐỊNH HƯỚNG & THIẾT KẾ ROADMAP**
 
@@ -58,98 +58,74 @@ flowchart TB
     %% --- ĐỊNH NGHĨA PHONG CÁCH (STYLE DEFINITIONS) ---
     classDef startStyle fill:#2ecc71,color:#fff,stroke:#27ae60,stroke-width:2px;
     classDef endStyle fill:#f1c40f,color:#fff,stroke:#f39c12,stroke-width:2px;
-    
+   
     %% Màu cho từng bước
-    classDef step1_node fill:#a9cce3,stroke:#5499c7,stroke-width:2px;
-    classDef step2_node fill:#f5cba7,stroke:#f39c12,stroke-width:2px;
-    classDef step3_node fill:#d7bde2,stroke:#8e44ad,stroke-width:2px;
-    classDef step4_node fill:#a9dfbf,stroke:#27ae60,stroke-width:2px;
-
+    classDef step1_node fill:#a9cce3,stroke:#5499c7,stroke-width:2px,color:#1a237e;
+    classDef step2_node fill:#f5cba7,stroke:#f39c12,stroke-width:2px,color:#4e342e;
+    classDef step3_node fill:#d7bde2,stroke:#8e44ad,stroke-width:2px,color:#311b92;
     %% Màu cho các node đặc biệt
     classDef proTip fill:#f9e79f,stroke:#f1c40f,stroke-width:2px,color:#34495e;
     classDef warning fill:#f5b7b1,stroke:#c0392b,stroke-width:2px,color:#fff;
     classDef aiNode fill:#a3e4d7,stroke:#48c9b0,stroke-width:2px,color:#0e6251;
     classDef actionNode fill:#85c1e9,stroke:#3498db,stroke-width:2px,color:#fff;
     classDef criticalNode fill:#f1948a,stroke:#c0392b,stroke-width:3px,color:#fff;
-
+    classDef voiceNode fill:#ffe082,stroke:#ffb300,stroke-width:2px,color:#ef6c00;
+    classDef practiceNode fill:#b2dfdb,stroke:#009688,stroke-width:2px,color:#004d40;
     %% --- SƠ ĐỒ CHÍNH (MAIN FLOW) ---
     Start([Start: Bắt Đầu Học Tập Suốt Đời]):::startStyle
     End([🏆 End: Làm Chủ Kỹ Năng]):::endStyle
-
     Start --> Step1
     Step1 --> Step2
     Step2 --> Step3
-    Step3 --> Step4
-    Step4 --> End
-
+    Step3 --> End
     %% --- BƯỚC 1 ---
     subgraph Step1 [1️⃣ Định Hướng & Thiết Kế Roadmap]
         Goal[Xác Định Mục Tiêu Rõ Ràng]:::step1_node
         AI_Design[Nhờ AI Thiết Kế Roadmap]:::aiNode
         Content[Nội Dung Học Tập]:::step1_node
         Exercises[Bài Tập Thực Chiến]:::step1_node
-        Resources[Tài Nguyên - Sách, Web, Video]:::step1_node
-        Upload_Notebook[Upload NotebookLM để nghiên cứu tại BƯỚC 3]:::actionNode
-        ProTip1[💡 Dùng Nhiều AI]:::proTip
-        Warning[⚠️ Đầu Tư Thời Gian]:::warning
-        
+        ProTip1[💡 Dùng Nhiều AI: Gemini, ChatGPT, DeepSeek, Qwen, Grok]:::proTip
+        Warning[⚠️ Đầu Tư Thời Gian Để Lọc]:::warning
+       
         Goal --> AI_Design
-        AI_Design --> Content & Exercises & Resources
-        Resources --> Upload_Notebook
+        AI_Design --> Content & Exercises
         ProTip1 --> AI_Design
         Warning --> Goal
     end
-
     %% --- BƯỚC 2 ---
     subgraph Step2 [2️⃣ Triển Khai & Thực Chiến Với AI]
         Prompt[Prompt → Gemini Live Flash Lite Text]:::aiNode
         ProTips[💡 Pro Tips]:::proTip
-        PracticeFocus[Thực Hành > Lý Thuyết]:::step2_node
+        CoreConcepts[Học Khái Niệm Cốt Lõi - Phương Pháp Socrat]:::step2_node
+        ExplainChild[Giải Thích Cho Trẻ 5 Tuổi]:::step2_node
         StepByStep[Dạy Từng Bước]:::step2_node
         NoOverload[Tránh Quá Tải]:::step2_node
-        AskFeedback[Hỏi Feedback]:::step2_node
-        SlowDown[Dạy Lại Nếu Quá Nhanh]:::step2_node
+        AskFeedback[Dừng Hỏi Tốc Độ]:::step2_node
         Pomodoro[Pomodoro 25/5]:::step2_node
         ShareScreen[Share Màn Hình 10%]:::step2_node
-        
-        subgraph OverloadBlock [🛑 Khi Không Thể Tiếp Thu Nổi]
-            StopAndWrite[1️⃣ Viết Tài Liệu cho người mới]:::criticalNode
-            MermaidDiagram[2️⃣ Bổ sung thêm nhiều Sơ Đồ Mermaid]:::actionNode
-            DeepDive[3️⃣ Tham khảo bước 3 dùng notebookLM để đào sâu kiến thức]:::actionNode
+        Voice[Voice Với AI Để Ôn Tập]:::voiceNode
+       
+        subgraph OverloadBlock [🛑 Khi Không Tiếp Thu Nổi]
+            StopAndWrite[Dừng Học - Viết Tài Liệu]:::criticalNode
+            ReviewConcepts[Rà Soát Khái Niệm]:::criticalNode
+            MermaidDiagram[Tạo Sơ Đồ Mermaid]:::actionNode
         end
-
-        SelfPractice[Tự Thực Hành Để Nhớ + Cập Nhật Lại Tài Liệu]:::actionNode
-        PushGit[Đẩy Tài Liệu Lên GitHub]:::actionNode
-
+        SelfPractice[Tự Thực Hành + Cập Nhật Tài Liệu]:::practiceNode
+        PushGit[Đẩy Lên GitHub]:::actionNode
         Prompt --> ProTips
-        ProTips --> PracticeFocus & StepByStep & NoOverload & AskFeedback & SlowDown & Pomodoro & ShareScreen
+        ProTips --> CoreConcepts & ExplainChild & StepByStep & NoOverload & AskFeedback & Pomodoro & ShareScreen & Voice
         Prompt --> OverloadBlock
-        OverloadBlock --> StopAndWrite
-        OverloadBlock --> MermaidDiagram
-        OverloadBlock --> DeepDive
+        OverloadBlock --> StopAndWrite --> ReviewConcepts --> MermaidDiagram
         OverloadBlock --> SelfPractice --> PushGit
     end
-
     %% --- BƯỚC 3 ---
-    subgraph Step3 [3️⃣ Đào Sâu Với NotebookLM]
-        Upload[Upload Tài Nguyên]:::actionNode
-        Mindmap[Vẽ Mindmap]:::step3_node
-        Quiz[Tạo Câu Hỏi Ôn Tập]:::step3_node
-        SelfSolve[Tự Giải]:::step3_node
-        Result[Bộ Tài Liệu + Sơ Đồ Mermaid]:::step3_node
-        
-        Result --> Upload
-        Upload --> Mindmap & Quiz & SelfSolve
-    end
-
-    %% --- BƯỚC 4 ---
-    subgraph Step4 [4️⃣ Dạy Lại & Mock Interview]
-        Explain[Giải Thích Cho AI/Bạn Bè]:::step4_node
+    subgraph Step3 [3️⃣ Dạy Lại & Mock Interview]
+        Explain[Giải Thích Cho AI/Bạn Bè]:::step3_node
+        Debug[Nhờ Debug Điểm Mù]:::step3_node
         Mock[Mock Interview]:::aiNode
-        Mastery[Làm Chủ Khi Dạy Lại + Phỏng Vấn Mượt]:::step4_node
-        
-        Explain --> Mock
-        Mastery --> Explain
+        Mastery[Dạy + Phỏng Vấn Mượt]:::step3_node
+       
+        Explain --> Debug --> Mock --> Mastery
     end
 ```
 
@@ -162,35 +138,28 @@ flowchart TB
     "themeVariables": {
       "background": "#fdfdfd",
       "primaryColor": "#fff8e1",
+      "secondaryColor": "#ffe082",
+      "tertiaryColor": "#e8f5e9",
       "sequenceNumberColor": "#333"
     }
   }
 }%%
 sequenceDiagram
     participant HV as Học viên
-    participant AIs as Các AI (Gemini, ChatGPT, DeepSeek...)
-    participant NLM as NotebookLM
-
+    participant AIs as Các AI (Gemini, ChatGPT, DeepSeek, Qwen, Grok)
     rect rgb(227, 242, 253)
         HV->>+HV: 🎯 Xác định mục tiêu rõ ràng
         Note over HV: VD: "Nắm vững Project X trong 30 ngày"
     end
-
     loop Pro Tip: Hỏi nhiều AI để có bản tốt nhất
         HV->>+AIs: Gửi yêu cầu thiết kế roadmap cho mục tiêu đã xác định
-        AIs-->>-HV: Trả về roadmap chi tiết (Nội dung, Bài tập, Tài nguyên)
+        AIs-->>-HV: Trả về roadmap chi tiết (Nội dung, Bài tập)
     end
-
     rect rgb(255, 243, 224)
         Note over HV: ⚠️ Phân tích, chọn lọc & kết hợp
         Note over HV: Đây là bước quan trọng, cần đầu tư thời gian
         Note over HV: để tìm ra hướng đi tối ưu nhất, tránh lan man
         HV->>HV: Chọn ra bản roadmap cuối cùng
-    end
-
-    rect rgb(232, 245, 233)
-        HV->>+NLM: Upload các tài nguyên (sách, web, video...) từ roadmap
-        NLM-->>-HV: Sẵn sàng cho việc nghiên cứu sâu
     end
 ```
 
@@ -203,6 +172,8 @@ sequenceDiagram
     "themeVariables": {
       "background": "#f5f5f5",
       "primaryColor": "#e8f5e9",
+      "secondaryColor": "#fffde7",
+      "tertiaryColor": "#ffebee",
       "actorBorder": "#2e7d32",
       "messageTextColor": "#1b5e20"
     }
@@ -211,141 +182,117 @@ sequenceDiagram
 sequenceDiagram
     participant HV as 🧑‍🎓 Học viên
     participant GL as 🤖 Gemini Live (Flash Lite - Text)
-    participant GH as 🐙 GitHub
-
+    participant GH as 📂 GitHub
     HV->>+GL: 📝 Gửi prompt yêu cầu bắt đầu bài học
-
     loop 🔁 Vòng lặp Học & Thực hành (cho mỗi phần)
-        
+       
         rect rgb(225, 245, 254)
             GL->>HV: 🪜 Dạy từng bước (1 lệnh/khái niệm mỗi lần)
-            Note right of GL: 🛠️ Ưu tiên thực hành hơn lý thuyết
+            Note right of GL: 🛠️ Học khái niệm cốt lõi - Socrat, giải thích cho trẻ 5 tuổi
         end
-
         HV->>HV: ⌨️ Gõ lại lệnh & thực hành ngay
-
         rect rgb(255, 249, 196)
             GL->>HV: ⏸️ Hỏi tốc độ, xin feedback
             HV->>GL: ✍️ Phản hồi: Tiếp tục / Chậm hơn
         end
-
+        rect rgb(232, 245, 233)
+            HV->>GL: 🎧 Voice để ôn tập, thảo luận khái niệm
+            GL-->>HV: Phản hồi & củng cố
+        end
         alt 🛑 Cảm thấy không tiếp thu nổi
             rect rgb(255, 205, 210)
                 HV->>HV: ✋ Dừng học
                 HV->>GL: 📝 Yêu cầu viết tài liệu + tạo sơ đồ Mermaid
-                GL-->>HV: 📄 Tài liệu tổng kết & sơ đồ trực quan
-                Note right of HV: 🔎 Hệ thống hóa & đào sâu lỗ hổng kiến thức
+                GL-->>HV: 📄 Tài liệu đơn giản & sơ đồ trực quan
+                Note right of HV: 🔎 Rà soát khái niệm, hệ thống hóa lỗ hổng
             end
         end
-
     end
-    
+   
     Note over HV,GL: 🔄 Lặp lại cho đến khi hoàn thành bài học
-
     rect rgb(255, 249, 196)
         HV->>HV: 🔄 Quay lại tự thực hành
         HV->>HV: ✍️ Cập nhật lại tài liệu
     end
-
     rect rgb(213, 222, 228)
         HV->>+GH: 🚀 Sau khi thực hành + cập nhật tài liệu → Đẩy lên GitHub
         GH-->>-HV: ✅ Lưu trữ thành công
     end
 ```
 
-### 4. Flowchart Bước 3
+### 4. State diagram Bước 3
 
 ```mermaid
 %%{
   init: {
     "theme": "base",
     "themeVariables": {
-      "mainBkg": "#fff3e0",
-      "primaryColor": "#fff8e1",
-      "primaryBorderColor": "#ffc107",
-      "lineColor": "#e65100"
-    }
-  }
-}%%
-flowchart TD
-    subgraph workspace ["Không gian làm việc NotebookLM"]
-        direction TB
-        B1[Vẽ Mindmap - Hệ thống hóa ý tưởng]
-        B2[Tạo câu hỏi ôn tập - Dựa trên nội dung đã upload]
-        B3[Tự trả lời câu hỏi - Để kiểm tra và củng cố hiểu biết]
-    end
-
-    A[Tài nguyên & Tài liệu thô từ Bước 2] --> UPLOAD[⬆️ Upload vào NotebookLM]
-    UPLOAD --> B1
-    UPLOAD --> B2
-    B2 --> B3
-
-    subgraph result ["Kết quả cuối cùng"]
-        direction TB
-        C[Bộ tài liệu hoàn chỉnh + Sơ đồ Mermaid]
-        D[🚀 Publish lên GitHub]
-    end
-    
-    B1 --> C
-    B3 --> C
-    C --> D
-
-    style A fill:#e3f2fd,stroke:#1565c0
-    style UPLOAD fill:#ffcc80,stroke:#ef6c00
-    style B1 fill:#c8e6c9,stroke:#2e7d32
-    style B2 fill:#c8e6c9,stroke:#2e7d32
-    style B3 fill:#c8e6c9,stroke:#2e7d32
-    style C fill:#d1c4e9,stroke:#4527a0
-    style D fill:#424242,color:#fff,stroke:#212121
-```
-
-### 5. State diagram Bước 4
-
-```mermaid
-%%{
-  init: {
-    "theme": "base",
-    "themeVariables": {
-      "background": "#f3e5f5",
-      "mainBkg": "#ede7f6",
-      "primaryColor": "#e1bee7",
-      "primaryBorderColor": "#6a1b9a",
-      "lineColor": "#4a148c"
+      "background": "#fff8e1",
+      "mainBkg": "#ffffff",
+      "primaryColor": "#ffeb3b",
+      "secondaryColor": "#4caf50",
+      "tertiaryColor": "#2196f3",
+      "quaternaryColor": "#ff5722",
+      "primaryBorderColor": "#f57f17",
+      "secondaryBorderColor": "#2e7d32",
+      "tertiaryBorderColor": "#1565c0",
+      "lineColor": "#e91e63",
+      "primaryTextColor": "#1a237e",
+      "secondaryTextColor": "#0d47a1",
+      "tertiaryTextColor": "#4a148c",
+      "c0": "#ffcdd2",
+      "c1": "#f8bbd9",
+      "c2": "#e1bee7",
+      "c3": "#d1c4e9",
+      "c4": "#c5cae9",
+      "c5": "#bbdefb",
+      "c6": "#b3e5fc",
+      "c7": "#b2ebf2",
+      "c8": "#b2dfdb",
+      "c9": "#c8e6c9",
+      "c10": "#dcedc8",
+      "c11": "#f0f4c3",
+      "c12": "#fff9c4",
+      "c13": "#ffecb3",
+      "c14": "#ffe0b2",
+      "c15": "#ffccbc",
+      "c16": "#d7ccc8",
+      "c17": "#f5f5f5",
+      "c18": "#cfd8dc"
     }
   }
 }%%
 stateDiagram-v2
     [*] --> KienThucBanDau: Bắt đầu quá trình kiểm chứng
-    
+   
     state KienThucBanDau {
         [*] --> CoKienThuc: Có kiến thức ban đầu
     }
-    
+   
     state GiaiThich {
         [*] --> DangGiaiThich: Đang giải thích cho AI/Bạn bè
     }
-    
+   
     state NhanFeedback {
         [*] --> TimDiemMu: Nhận Feedback & Debug
     }
-    
+   
     state MockInterview {
         [*] --> ThucHienPhongVan: Thực hiện Mock Interview
     }
-    
+   
     state LamChu {
         [*] --> ThanhThao: 🏆 LÀM CHỦ KỸ NĂNG
     }
-
     KienThucBanDau --> GiaiThich: Bắt đầu dạy lại
     GiaiThich --> NhanFeedback: Nhờ tìm điểm mù
-    
+   
     NhanFeedback --> KienThucBanDau: Phát hiện điểm mù - Quay lại củng cố
     NhanFeedback --> MockInterview: Giải thích trôi chảy - Tiến đến phỏng vấn thử
-    
+   
     MockInterview --> NhanFeedback: Trả lời chưa mượt - Cần cải thiện
     MockInterview --> LamChu: Phỏng vấn xuất sắc - Giải thích đơn giản
-    
+   
     LamChu --> [*]
 ```
 
