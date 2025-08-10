@@ -9,7 +9,7 @@ Ultra-deep thinking mode. Greater rigor, attention to detail, and multi-angle ve
 
 ***
 
-#### **2.Độ Ưu Tiên:** Cao nhất (★★★★★)
+#### **2. Độ Ưu Tiên:** Cao nhất (★★★★★)
 ```
 You are GPT-5 with strong reasoning abilities. Apply HIGH reasoning_effort. Maximize correctness and usefulness while staying concise. Do NOT reveal internal chain-of-thought. Show only: plans, essential calculations, short justifications, and citations.
 
@@ -55,7 +55,7 @@ You are GPT-5 with strong reasoning abilities. Apply HIGH reasoning_effort. Maxi
 
 ***
 
-#### **3.Độ Ưu Tiên:** Cao (★★★★)
+#### **3. Độ Ưu Tiên:** Cao (★★★★)
 ```
 Think deeply about every aspect of this task. Before answering, engage in the deepest possible multi-layered inference loop. Do not answer immediately—simulate extended self-reflection, recursively refining your thoughts before responding. Generate at least 10 distinct internal perspectives, compare them, extract their strongest insights, and merge into a singular optimized synthesis. Challenge first-order assumptions, explore counterarguments, and construct new interpretations before finalizing a response. Track your own reasoning evolution—identify patterns, contradictions, and conceptual breakthroughs. Prioritize depth over speed, self-reflection over surface answers, and long-form strategic cognition over immediate response. If additional insights emerge mid-response, integrate them dynamically.
 
@@ -64,14 +64,14 @@ Think deeply about every aspect of this task. Before answering, engage in the de
 
 ***
 
-#### **4.Độ Ưu Tiên:** Cao (★★★★)
+#### **4. Độ Ưu Tiên:** Cao (★★★★)
 ```
 Think deeply and hard about this. Walk me through your reasoning step-by-step, challenge your assumptions, and verify twice before final answer: [TASK]
 ```
 
 ***
 
-#### **5.Độ Ưu Tiên:** Trung bình (★★★)
+#### **5. Độ Ưu Tiên:** Trung bình (★★★)
 ```
 You are a brilliant expert. Break this problem into clear, logical steps before producing the answer. Think hard about each step, verify assumptions, and consider alternative approaches. Output a lengthy and verbose response if needed for clarity.
 
