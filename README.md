@@ -52,7 +52,7 @@
 
 ### **Học – Làm – Kiểm tra liên tục**
 
-* **🪜 Step-by-step:** Chỉ học 1 lệnh/1 ý → thực hành ngay → xong mới tiếp.
+* **🪜 Step-by-step:** Chỉ học 1 lệnh/1 ý → thực hành ngay → xong mới tiếp. - Phương pháp **Atomic Learning**
 * **🚫 Tránh quá tải:** Nếu AI đưa cả trang → yêu cầu chậm hơn.
 * **⏸️ Kiểm tra hiểu:** Mini-quiz hoặc hỏi ngược. Nếu bí → quay lại ôn nền móng.
 * **🛑 Khi bão hòa:**
