@@ -1,9 +1,9 @@
-# **4 nguyên tắc học nhanh để biến kiến thức của người khác thành của mình:**
+# **4 nguyên tắc học nhanh bất cứ thứ gì - HỌC TẬP SUỐT ĐỜI**
 
-> - **Lộ trình rõ ràng** – Vẽ roadmap chi tiết, dễ thực hiện. Không biết đi đâu thì học kiểu gì cũng loạn.
-> - **Nắm chắc nền móng** – Khái niệm là nền móng. Móng yếu thì càng xây cao càng dễ đổ. Học theo phương pháp Socrates: hỏi, đào, hiểu đến tận gốc.
-> - **Học đi đôi với làm** – “Trăm hay không bằng tay quen.” Vừa học xong là thực hành ngay, không để kiến thức ngủ quên.
-> - **Đừng sợ vấp** – Nếu cứ gặp khó là tìm đáp án ngay thì chả khác gì copy-paste, não không phát triển. Phải để bản thân loay hoay, suy nghĩ, bực mình với vấn đề. Chính lúc đó não mới “tiêu hoá” kiến thức. Tự kiểm tra bằng quiz, test… Sai cũng được, miễn là mình phải động não.
+> * **Roadmap rõ ràng** – Dành thời gian ngay từ đầu để tìm hiểu và tự thiết kế một lộ trình học bài bản. Có bản đồ rồi thì đi nhanh, đi đúng, đỡ lạc.
+> * **Nắm chắc nền móng** – Khái niệm là cái móng. Móng yếu thì càng xây cao càng dễ sập. Học theo kiểu Socrates: hỏi tới, đào sâu, hiểu tận gốc.
+> * **Học đi đôi với làm** – “Trăm hay không bằng tay quen.” Học xong cái gì là làm ngay cái đó, không để kiến thức nằm chết trên giấy.
+> * **Đừng sợ vấp** – Nếu học và làm mà không vướng mắc gì thì **coi như bản thân chưa học được mới gì đi** vì **sớm muộn gì cũng quên**. Phải đặt bản thân vào cách tình huống loay hoay, bực mình, so sánh, bất lực,.... thì lúc đó kiến thức mới thực sự “tiêu hoá” để biến thành của mình. Tự kiểm tra bằng quiz, thử thách, sai cũng được, miễn là động não. Nếu không tự mình trả lời được luôn thì **quay lại tìm hiểu về các khái niệm để xây dựng lại nền móng**
 
 # 🚀 **LỘ TRÌNH 2 BƯỚC HỌC KỸ NĂNG CÙNG AI – HỌC TẬP SUỐT ĐỜI**
 *(Tóm tắt:* Xác định mục tiêu rõ ràng và nhờ AI xây dựng kế hoạch học tối ưu → Thực hiện học tập chủ động với sự hướng dẫn của AI (học từng bước, thực hành, nghỉ ngơi hợp lý, ôn tập) → Dạy lại cho người khác hoặc AI để củng cố và xác nhận đã làm chủ kỹ năng.)\*
