@@ -5,304 +5,69 @@
 > * **Học đi đôi với làm** – “Trăm hay không bằng tay quen.” Học xong cái gì là làm ngay cái đó, không để kiến thức nằm chết trên giấy.
 > * **Đừng sợ vấp** – Nếu học và làm mà không vướng mắc gì thì **coi như bản thân chưa học được mới gì đi** vì **sớm muộn gì cũng quên**. Phải đặt bản thân vào cách tình huống loay hoay, bực mình, so sánh, bất lực,.... thì lúc đó kiến thức mới thực sự “tiêu hoá” để biến thành của mình. Tự kiểm tra bằng quiz, thử thách, sai cũng được, miễn là động não. Nếu không tự mình trả lời được luôn thì **quay lại tìm hiểu về các khái niệm để xây dựng lại nền móng**
 
+---
+
 # 🚀 **LỘ TRÌNH 2 BƯỚC HỌC KỸ NĂNG CÙNG AI – HỌC TẬP SUỐT ĐỜI**
-*(Tóm tắt:* Xác định mục tiêu rõ ràng và nhờ AI xây dựng kế hoạch học tối ưu → Thực hiện học tập chủ động với sự hướng dẫn của AI (học từng bước, thực hành, nghỉ ngơi hợp lý, ôn tập) → Dạy lại cho người khác hoặc AI để củng cố và xác nhận đã làm chủ kỹ năng.)\*
 
-## **1️⃣ 🎯 ĐỊNH HƯỚNG & THIẾT KẾ ROADMAP**
+*(Tóm tắt: Xác định mục tiêu rõ ràng và nhờ AI thiết kế roadmap → Học chủ động, thực hành ngay, dám sai, và dạy lại để kiểm chứng)*
 
-* 🎯 Xác định **mục tiêu rõ ràng** – Ví dụ: *“📆 Nắm vững Project X trong 30 ngày”*. Càng cụ thể càng tốt (về phạm vi kiến thức, thời gian, kết quả mong muốn).
+---
 
-* 🤖 Nhờ **AI thiết kế roadmap chi tiết**, gồm:
+## **1️⃣ 🎯 ĐỊNH HƯỚNG & THIẾT KẾ ROADMAP** *(Nguyên tắc 1: Roadmap rõ ràng)*
 
-  * 1️⃣ 🗺️ **Roadmap**
-  * 2️⃣ 📝 **Nội dung học tập**
-  * 3️⃣ 🛠️ **Bài tập thực chiến**
+* **Xác định mục tiêu cụ thể** – Ví dụ: *“📆 Nắm vững Project X trong 30 ngày”*.
+* **Nhờ AI thiết kế roadmap** gồm:
 
-* 💡 **Pro tip:** Đặt cùng một câu hỏi cho **nhiều AI khác nhau** (ví dụ: Gemini 🤖, ChatGPT 🧠, DeepSeek 🦾, Qwen 🦉, Grok 🐺…) để thu thập nhiều phiên bản roadmap. Sau đó, **phân tích và kết hợp** ý tưởng từ các bản trả lời → Chọn ra bản tốt nhất hoặc tổng hợp thành kế hoạch phù hợp nhất cho bạn.
-  
-⚠️ **Quan trọng:** ⏳ Cần **đầu tư thời gian** để **sàng lọc và chọn hướng đi tối ưu**, tránh học lan man theo tất cả gợi ý. Hãy nhớ mục tiêu đã đề ra và chỉ giữ lại những phần kiến thức thực sự giúp đạt mục tiêu đó trong thời gian cho phép.
+  * 🗺️ Lộ trình
+  * 📝 Nội dung cần học
+  * 🛠️ Bài tập thực chiến
+* **💡 Pro tip:** Hỏi nhiều AI (Gemini, ChatGPT, DeepSeek, Qwen, Grok…) → so sánh → kết hợp → lọc ra bản tối ưu.
+  ⚠️ **Đầu tư thời gian lọc** – Chỉ giữ nội dung thật sự giúp đạt mục tiêu.
 
 ---
 
 ## **2️⃣ 🤖 TRIỂN KHAI & THỰC CHIẾN VỚI AI**
 
-* 📝 Soạn **prompt** yêu cầu AI (ví dụ: **Gemini Live** ⚡ *Flash Lite mới nhất – chế độ Text*) hướng dẫn bạn từng bài học theo roadmap. Bắt đầu từ những chủ đề cơ bản nhất.
-
-* 💡 **Các nguyên tắc “vàng” khi học với AI:**
-
-  **1️⃣ ✍️ Học vững khái niệm cốt lõi**
-
-  * 📋 **Bước khởi đầu:** Nhờ AI **liệt kê tất cả các khái niệm cốt lõi** cần học và **vẽ sơ đồ Mermaid** thể hiện mối quan hệ giữa chúng.
-
-    > - ⚠️ Ở bước này chỉ cần *liệt kê và vẽ sơ đồ*, **không cần giải thích hay hiểu ngay**. Mục tiêu là tạo bản đồ tổng quan để sau này học từng phần. 
-    > - Ví dụ prompt ngắn: “Hãy liệt kê các khái niệm cốt lõi của [CHỦ ĐỀ], sau đó vẽ sơ đồ Mermaid thể hiện quan hệ giữa các khái niệm. Chỉ liệt kê và sơ đồ, chưa cần giải thích.” 
-    > - 🧱 Đừng xem nhẹ các khái niệm: chúng là móng để học bước sau. Chưa cần đào sâu ngay, chỉ cần có bản đồ khái niệm đủ rõ để định hướng. 
-
-  * 🧠 **Phương pháp học:** Yêu cầu AI áp dụng **phương pháp Socrates** – giải thích bằng những câu hỏi gợi mở, dễ hiểu.
-
-    * Sử dụng **Học có hướng dẫn** trên Gemini (hoặc **Study and Learn** trên ChatGPT) để AI dẫn dắt khám phá từng khái niệm.
-
-  * 🧱 **Nguyên tắc nền móng:** Đừng xem nhẹ các khái niệm – chúng là **những viên gạch nền tảng**. *MÓNG KHÔNG VỮNG THÌ CÀNG XÂY CAO CÀNG DỄ ĐỔ*.
-
-  * 💡 **Mẹo Feynman:** Nhờ AI **đóng vai một đứa trẻ 5 tuổi** để bạn thử giải thích lại. Nếu giải thích trôi chảy, nghĩa là bạn đã thực sự làm chủ kiến thức.
-
-  **2️⃣ 🪜 Học theo kiểu “step-by-step” (từng bước một):** Yêu cầu AI chỉ đưa **một lượng kiến thức hoặc một lệnh mỗi lần**, sau đó dừng. Bạn sẽ **thực hiện đúng bước đó** (dùng máy tính, viết code, làm bài tập…) **xong mới được tiếp tục** sang bước kế.
-
-  **3️⃣ 🚫 Tránh “cả trang hướng dẫn” rồi mới thực hành:** Nếu AI trả lời quá nhiều một lúc, lịch sự yêu cầu: *“Làm ơn hướng dẫn chậm hơn, từng bước một để mình còn thực hành.”*
-
-  **4️⃣ ⏸️ Tạm dừng để kiểm tra hiểu biết:** Sau mỗi phần hoặc vài bước, để AI **dừng lại và hỏi** xem bạn có đang theo kịp không; có thể kèm mini-quiz. Chỉ tiếp tục khi bạn **tự tin đã hiểu**; đừng ngại yêu cầu giải thích lại.
-
-  **5️⃣ ⏱️ Áp dụng kỹ thuật Pomodoro:** Học 25 phút, nghỉ 5 phút; sau 4 phiên nghỉ dài 15–30 phút. Tránh xem nội dung gây xao nhãng khi nghỉ.
-
-  **6️⃣ 🖥️ Hạn chế chia sẻ màn hình:** Chỉ dùng khi **thực sự cần thiết (\~10% thời gian)**; 90% tương tác nên qua chat văn bản.
-
-  **7️⃣ 📝 Khi quá tải → dừng học, chuyển sang viết tài liệu:**
-
-  * ✋ **Dừng học mới, ôn lại cái cũ:** Nhờ AI rà soát các khái niệm còn chưa vững bằng cách **tạo bài kiểm tra**
-  * ✍️ **Viết lại bài hướng dẫn** đơn giản cho người mới.
-
-  **8️⃣ 🔄 Tự quay lại thực hành** ngay sau buổi học để khắc sâu kiến thức và tiếp tục **cập nhật tài liệu** sao cho người mới đọc cũng tự thực hành được.
-
-* 🎧 **Tư duy thành tiếng với AI:** Thử **trò chuyện bằng giọng nói** (Voice Call với ChatGPT / Native Audio với Gemini); đọc lại tài liệu, giải thích khái niệm cho AI nghe để **ôn tập chủ động** và sắp xếp lại kiến thức.
-
-* 🚀 Sau khi tự thực hành xong + cập nhật tài liệu → **đẩy toàn bộ tài liệu lên GitHub 📂** để quản lý và chia sẻ. Việc này giúp bạn:
-
-  * Theo dõi tiến bộ qua từng phiên bản tài liệu.
-  * Xây dựng **portfolio** học tập – bằng chứng cho kỹ năng và nỗ lực học suốt đời.
-  * Chia sẻ kiến thức cho bạn bè và cộng đồng cùng học.
+> Áp dụng 3 nguyên tắc còn lại:
+> **(2) Nắm chắc nền móng** – **(3) Học đi đôi với làm** – **(4) Đừng sợ vấp**
 
 ---
 
-## SƠ ĐỒ MERMAID LUỒNG QUY TRÌNH
+### **Bắt đầu từ nền móng**
 
-### 1. Sơ đồ flowchart tổng quan
+1. **📋 Vẽ bản đồ khái niệm:**
 
-```mermaid
-flowchart TB
-    %% --- ĐỊNH NGHĨA PHONG CÁCH MỚI VỚI NHIỀU MÀU SẮC ---
-    classDef startStyle fill:#e74c3c,color:#fff,stroke:#c0392b,stroke-width:4px;
-    classDef endStyle fill:#f39c12,color:#fff,stroke:#e67e22,stroke-width:4px;
+   * Nhờ AI liệt kê khái niệm cốt lõi + vẽ sơ đồ Mermaid mối quan hệ.
+   * ⚠️ Chỉ liệt kê & sơ đồ, chưa giải thích.
+     *Prompt mẫu:*
 
-    %% Màu cho từng bước - Palette Rainbow
-    classDef step1_node fill:#3498db,stroke:#2980b9,stroke-width:3px,color:#fff;
-    classDef step2_node fill:#e67e22,stroke:#d35400,stroke-width:3px,color:#fff;
-    classDef step3_node fill:#9b59b6,stroke:#8e44ad,stroke-width:3px,color:#fff;
-    
-    %% Màu cho các node đặc biệt - Thêm nhiều màu gradient
-    classDef proTip fill:#f1c40f,stroke:#f39c12,stroke-width:3px,color:#2c3e50;
-    classDef warning fill:#e74c3c,stroke:#c0392b,stroke-width:3px,color:#fff;
-    classDef aiNode fill:#1abc9c,stroke:#16a085,stroke-width:3px,color:#fff;
-    classDef actionNode fill:#3498db,stroke:#2980b9,stroke-width:3px,color:#fff;
-    classDef criticalNode fill:#e74c3c,stroke:#c0392b,stroke-width:4px,color:#fff;
-    classDef voiceNode fill:#f39c12,stroke:#e67e22,stroke-width:3px,color:#fff;
-    classDef practiceNode fill:#27ae60,stroke:#229954,stroke-width:3px,color:#fff;
-    
-    %% Thêm màu mới - Gradient và Pastel
-    classDef goalNode fill:#ff6b9d,stroke:#e91e63,stroke-width:3px,color:#fff;
-    classDef conceptNode fill:#a29bfe,stroke:#6c5ce7,stroke-width:3px,color:#fff;
-    classDef methodNode fill:#00b894,stroke:#00a085,stroke-width:3px,color:#fff;
-    classDef feedbackNode fill:#fdcb6e,stroke:#e17055,stroke-width:3px,color:#2d3436;
-    classDef masterNode fill:#00cec9,stroke:#00b894,stroke-width:4px,color:#fff;
-    classDef specialNode fill:#fd79a8,stroke:#e84393,stroke-width:3px,color:#fff;
-    classDef techNode fill:#74b9ff,stroke:#0984e3,stroke-width:3px,color:#fff;
-    classDef creativeNode fill:#a29bfe,stroke:#6c5ce7,stroke-width:3px,color:#fff;
-    classDef analyticsNode fill:#55a3ff,stroke:#2d74da,stroke-width:3px,color:#fff;
+   ```
+   Liệt kê các khái niệm cốt lõi của [CHỦ ĐỀ], 
+   sau đó vẽ sơ đồ Mermaid thể hiện quan hệ. 
+   Chỉ liệt kê và sơ đồ, chưa cần giải thích.
+   ```
+2. **🧠 Học từng khái niệm** với phương pháp Socrates (AI hỏi – bạn suy luận), kết hợp **Feynman** (giải thích lại cho “trẻ 5 tuổi”).
 
-    %% --- SƠ ĐỒ CHÍNH ---
-    Start([🚀 Start: Bắt Đầu Học Tập Suốt Đời]):::startStyle
-    End([🏆 End: Làm Chủ Kỹ Năng]):::endStyle
-    
-    Start --> Step1
-    Step1 --> Step2
-    Step2 --> Step3
-    Step3 --> End
+---
 
-    %% --- BƯỚC 1 ---
-    subgraph Step1 [1️⃣ Định Hướng & Thiết Kế Roadmap]
-        Goal[🎯 Xác Định Mục Tiêu Rõ Ràng]:::goalNode
-        AI_Design[🤖 Nhờ AI Thiết Kế Roadmap]:::aiNode
-        Content[📚 Nội Dung Học Tập]:::step1_node
-        Exercises[💪 Bài Tập Thực Chiến]:::step1_node
-        ProTip1[💡 Dùng Nhiều AI:<br>Gemini, ChatGPT, DeepSeek, Qwen, Grok]:::proTip
-        Warning[⚠️ Đầu Tư Thời Gian<br>Để Lọc Kế Hoạch]:::warning
+### **Học – Làm – Kiểm tra liên tục**
 
-        Goal --> AI_Design
-        AI_Design --> Content & Exercises
-        ProTip1 --> AI_Design
-        Warning --> Goal
-    end
+* **🪜 Step-by-step:** Chỉ học 1 lệnh/1 ý → thực hành ngay → xong mới tiếp.
+* **🚫 Tránh quá tải:** Nếu AI đưa cả trang → yêu cầu chậm hơn.
+* **⏸️ Kiểm tra hiểu:** Mini-quiz hoặc hỏi ngược. Nếu bí → quay lại ôn nền móng.
+* **🛑 Khi bão hòa:**
 
-    %% --- BƯỚC 2 ---
-    subgraph Step2 [2️⃣ Triển Khai & Thực Chiến Với AI]
-        Prompt[✍️ Soạn Prompt Cho AI]:::aiNode
-        ProTips[💡 Các Nguyên Tắc Vàng]:::proTip
+  * Ngưng học mới, viết/tóm tắt lại phần vừa học.
+  * Nhờ AI rà soát, tạo câu hỏi hoặc sơ đồ bổ sung.
 
-        %% Bước khởi đầu - ĐÃ SỬA LỖI
-        ExamplePrompt[🧩 Ví dụ prompt:<br>Hãy liệt kê các khái niệm cốt lõi của CHỦ ĐỀ,<br>sau đó vẽ sơ đồ Mermaid thể hiện quan hệ.<br>Chỉ liệt kê và sơ đồ, chưa giải thích.]:::specialNode
-        InitMap[📋 Bước khởi đầu:<br>AI liệt kê khái niệm cốt lõi + vẽ sơ đồ Mermaid<br>Chỉ liệt kê và sơ đồ, chưa giải thích]:::techNode
+---
 
-        CoreConcepts[🧠 Học Khái Niệm Cốt Lõi<br>Phương Pháp Socrates]:::conceptNode
-        ExplainChild[👶 Giải Thích Cho Trẻ 5 Tuổi<br>Kỹ thuật Feynman]:::methodNode
-        StepByStep[📋 Dạy Từng Bước<br>Step-by-step]:::step2_node
-        NoOverload[🚫 Tránh Quá Tải<br>Thông Tin]:::warning
-        AskFeedback[🤔 Dừng và Hỏi<br>Phản Hồi]:::feedbackNode
-        Pomodoro[⏰ Phương Pháp Pomodoro<br>25 phút học/5 phút nghỉ]:::methodNode
-        ShareScreen[📺 Hạn Chế Share Màn Hình<br>10% thời gian]:::step2_node
-        Voice[🎤 Học Bằng Giọng Nói<br>Voice Chat Với AI]:::voiceNode
+### **Củng cố & dạy lại (ngay trong bước 2)**
 
-        subgraph OverloadBlock [🛑 Khi Quá Tải]
-            StopAndWrite[✋ Dừng Học - Viết Tài Liệu<br>Tóm Tắt]:::criticalNode
-            ReviewConcepts[🔍 Rà Soát Lại<br>Khái Niệm Nền Tảng]:::criticalNode
-            MermaidDiagram[📊 Tạo Sơ Đồ Mermaid<br>Trực Quan]:::analyticsNode
-        end
-        
-        SelfPractice[🏃 Tự Thực Hành Lại<br>+ Cập Nhật Tài Liệu]:::practiceNode
-        PushGit[📤 Đẩy Lên GitHub<br>Chia Sẻ và Lưu Trữ]:::actionNode
-
-        Prompt --> ProTips
-        ProTips --> ExamplePrompt
-        ExamplePrompt --> InitMap
-        ProTips --> InitMap & CoreConcepts & ExplainChild & StepByStep & NoOverload & AskFeedback & Pomodoro & ShareScreen & Voice
-        InitMap --> CoreConcepts
-
-        Prompt --> OverloadBlock
-        OverloadBlock --> StopAndWrite --> ReviewConcepts --> MermaidDiagram
-        OverloadBlock --> SelfPractice --> PushGit
-    end
-
-    %% --- BƯỚC 3 ---
-    subgraph Step3 [3️⃣ Dạy Lại & Mock Interview]
-        Explain[👨‍🏫 Giải Thích Cho AI/Bạn Bè<br>Vai trò Người Dạy]:::step3_node
-        Debug[🔧 Nhờ Phản Biện và Tìm<br>Điểm Mù Kiến Thức]:::criticalNode
-        Mock[🎭 Phỏng Vấn Thử<br>Mock Interview]:::creativeNode
-        Mastery[🏆 Trả Lời Trôi Chảy và Đơn Giản<br>= Làm Chủ Kỹ Năng]:::masterNode
-
-        Explain --> Debug --> Mock --> Mastery
-    end
-```
-
-### 2. Sequence diagram Bước 1
-
-```mermaid
-%%{init: {
-  'theme': 'base', 
-  'themeVariables': { 
-    'background': '#fdfdfd', 
-    'primaryColor': '#e8f8f5', 
-    'secondaryColor': '#d1f2eb', 
-    'tertiaryColor': '#aed6f1', 
-    'sequenceNumberColor': '#333',
-    'noteBkgColor': '#fff2cc',
-    'noteTextColor': '#333',
-    'activationBkgColor': '#ffeaa7',
-    'activationBorderColor': '#fdcb6e'
-  }
-}}%%
-sequenceDiagram
-    participant HV as 🎓 Học viên
-    participant AIs as 🤖 Các AI<br/>(Gemini, ChatGPT,<br/>DeepSeek, Qwen, Grok)
-
-    rect rgb(227, 242, 253)
-        HV->>+HV: 🎯 Xác định mục tiêu học tập rõ ràng
-        Note over HV: VD: "Nắm vững Project X trong 30 ngày"
-    end
-
-    loop 💡 Pro Tip: Hỏi nhiều AI lấy ý tưởng
-        HV->>+AIs: Gửi yêu cầu *thiết kế roadmap* cho mục tiêu đã đặt ra
-        AIs-->>-HV: Trả về các roadmap chi tiết<br/>(nội dung, bài tập, thời gian...)
-    end
-
-    rect rgb(232, 245, 233)
-        HV->>+AIs: 📋 Nhờ AI **liệt kê các khái niệm cốt lõi**<br/>& **vẽ sơ đồ Mermaid** quan hệ giữa chúng<br/>(⚠️ chỉ liệt kê & sơ đồ, **chưa cần giải thích**)
-        AIs-->>-HV: 🗺️ Trả về *danh sách khái niệm* + *sơ đồ Mermaid* (bản đồ tổng quan)
-        Note over HV: Dùng bản đồ để định hướng lộ trình học từng phần, chưa cần đào sâu ngay
-        Note over HV,AIs: 🧾 Prompt mẫu: "Hãy liệt kê các khái niệm cốt lõi của [CHỦ ĐỀ],<br/>Sau đó vẽ sơ đồ Mermaid thể hiện quan hệ.<br/>Chỉ liệt kê và sơ đồ, chưa cần giải thích."
-    end
-
-    rect rgb(255, 243, 224)
-        Note over HV: ⚠️ Phân tích, chọn lọc & kết hợp các ý hay nhất<br/>(Đầu tư thời gian để tìm ra hướng đi tối ưu, tránh lan man)
-        HV->>HV: ✨ Chọn/điều chỉnh ra bản roadmap cuối cùng phù hợp
-    end
-
-    rect rgb(248, 215, 218)
-        HV->>+AIs: 🔍 Bắt đầu học từng khái niệm theo roadmap
-        AIs-->>-HV: Cung cấp kiến thức chi tiết + ví dụ thực tế
-        Note over HV,AIs: 💡 Tip: Yêu cầu AI đưa ra ví dụ cụ thể<br/>và bài tập thực hành
-    end
-
-    rect rgb(209, 236, 241)
-        HV->>HV: 📝 Thực hành & ghi chú
-        HV->>+AIs: ❓ Hỏi khi gặp khó khăn
-        AIs-->>-HV: Giải đáp & hướng dẫn cụ thể
-        Note over HV: 🔄 Lặp lại chu trình học-thực hành-hỏi đáp
-    end
-
-    rect rgb(255, 228, 225)
-        HV->>+AIs: 🎯 Đánh giá tiến độ & điều chỉnh
-        AIs-->>-HV: Phản hồi & gợi ý cải thiện
-        Note over HV,AIs: 📊 Theo dõi progress định kỳ
-    end
-
-    rect rgb(230, 255, 230)
-        HV->>HV: 🏆 Hoàn thành mục tiêu & tổng kết
-        Note over HV: 📚 Ghi chép kinh nghiệm cho lần học tiếp theo
-    end
- 
-```
-
-### 3. Sequence diagram Bước 2
-
-```mermaid
-%%{init: {
-        'theme': 'base',
-        'themeVariables': {
-          'background': '#f5f5f5',
-          'primaryColor': '#e8f5e9',
-          'secondaryColor': '#fffde7',
-          'tertiaryColor': '#ffebee',
-          'actorBorder': '#2e7d32',
-          'messageTextColor': '#1b5e20'
-        }
-      }}%%
-sequenceDiagram
-    participant HV as 🧑‍🎓 Học viên
-    participant AI as 🤖 AI Mentor (Gemini Live)
-    participant GH as 📂 GitHub
-    HV->>+AI: 📝 Gửi prompt bắt đầu bài học theo roadmap
-    loop 🔁 Vòng lặp Học & Thực Hành cho mỗi nội dung
-        rect rgb(225, 245, 254)
-            AI-->>HV: 🪜 Hướng dẫn từng bước (1 lệnh hoặc 1 khái niệm mỗi lần)
-            Note right of AI: Socrates: đặt câu hỏi, giải thích khái niệm cốt lõi<br/>Giải thích đơn giản (5 tuổi) nếu cần
-        end
-        HV->>HV: ⌨️ Thực hiện lệnh/ bài tập theo hướng dẫn
-        rect rgb(255, 249, 196)
-            AI-->>HV: ⏸️ Tạm dừng hỏi: "Tốc độ này ổn không?"
-            HV-->>AI: 🙂 Phản hồi: *Tiếp tục* (nếu hiểu) / 🤔 *Chậm lại* (nếu chưa rõ)
-        end
-        alt 🛑 Nếu học viên quá tải hoặc nhiều lỗi
-            rect rgb(255, 205, 210)
-                HV->>AI: 📝 Yêu cầu AI giúp tóm tắt & viết lại tài liệu phần này
-                AI-->>HV: 📄 Trả lời bằng tài liệu tóm tắt + gợi ý sơ đồ (nếu cần)
-                HV->>HV: 📚 Tạm dừng học mới, ôn lại tài liệu, tự viết ghi chú
-                HV->>AI: ❓ Hỏi lại AI những chỗ còn chưa hiểu kỹ
-            end
-        end
-    end
-    Note over HV,AI: 🔄 Lặp lại cho đến khi hoàn thành các nội dung trong roadmap
-    rect rgb(232, 245, 233)
-        HV->>AI: 🎧 (Tuỳ chọn) Thảo luận bằng giọng nói để ôn tập lại khái niệm đã học
-        AI-->>HV: 🤖 Lắng nghe, chỉnh sửa hiểu lầm, đặt câu hỏi kiểm tra
-    end
-    rect rgb(255, 249, 196)
-        HV->>HV: 🔄 Quay lại tự thực hành không cần nhìn hướng dẫn
-        HV->>HV: 🖋️ Cập nhật lại tài liệu học tập cho đầy đủ, rõ ràng
-    end
-    rect rgb(213, 222, 228)
-        HV->>+GH: 🚀 Đẩy tài liệu và mã lên GitHub (hoặc kho lưu trữ)
-        GH-->>-HV: ✅ Đã lưu trữ phiên bản mới (có thể chia sẻ)
-    end
-
-```
+* **🎧 Tư duy thành tiếng** với AI (chat hoặc voice).
+* **👨‍🏫 Giải thích lại** cho AI/người khác như đang dạy.
+* **🏃 Thực hành lại từ đầu không nhìn hướng dẫn**.
+* **📤 Đẩy tài liệu/mã nguồn lên GitHub** → vừa lưu trữ, vừa làm portfolio.
 
 ---
 
