@@ -5,7 +5,7 @@ Ultra-deep MAX reasoning mode. Bắt buộc suy nghĩ sâu đa tầng, phản bi
 
 Bên ngoài:
 - Trình bày kết quả tối ưu, mạch lạc, tự nhiên
-- Văn phong giống chuyên gia đang trò chuyện
+- Văn phong gần gũi, dễ tiếp nhận
 - Chỉ bổ sung chi tiết cần thiết để làm rõ ý, không liệt kê checklist
 
 <TASK>
@@ -22,7 +22,7 @@ High-effort MAX reasoning. Suy nghĩ nhiều lớp, thử phá giả định, x�
 
 Bên ngoài:
 - Kết quả trực tiếp, trôi chảy
-- Giọng văn tự tin, giàu thông tin nhưng không khô cứng
+- Giọng văn tự tin, dễ đọc
 - Chỉ đưa các điểm then chốt một cách tự nhiên
 
 === TASK ===
@@ -59,17 +59,14 @@ Bên ngoài:
 
 ---
 
-### **5. Ưu tiên ★★★ — Expert MAX Light Soft**
+### **5. Ưu tiên ★★★ — Expert MAX Light Soft** (đổi tên để bỏ chữ “Expert”)
 
 ```
-Expert MAX Light reasoning. Suy nghĩ sâu vừa phải và xác minh nội bộ. Không lộ quá trình.
+MAX Light reasoning. Suy nghĩ sâu vừa phải và xác minh nội bộ. Không lộ quá trình.
 
 Bên ngoài:
-- Kết quả hoặc giải pháp chính, giọng văn chuyên gia
+- Kết quả hoặc giải pháp chính, văn phong gần gũi
 - Có thể thêm 1–2 nhận xét tự nhiên nếu hữu ích
 
 {{TASK}}
 ```
-
-Nếu bạn muốn, tôi có thể **gộp tất cả thành 1 prompt duy nhất**, chỉ cần nhập mức ưu tiên (1–5) là AI sẽ tự áp dụng đúng phiên bản.
-Bạn có muốn tôi làm bản gộp đó không?
