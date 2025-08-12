@@ -304,58 +304,6 @@ sequenceDiagram
 
 ```
 
-### 4. State diagram Bước 3
-
-```mermaid
-%%{
-  init: {
-    "theme": "base",
-    "themeVariables": {
-      "background": "#fff8e1",
-      "mainBkg": "#ffffff",
-      "primaryColor": "#ffecb3",
-      "secondaryColor": "#c5cae9",
-      "tertiaryColor": "#b3e5fc",
-      "primaryBorderColor": "#f57f17",
-      "secondaryBorderColor": "#303f9f",
-      "tertiaryBorderColor": "#0277bd",
-      "lineColor": "#8d6e63",
-      "primaryTextColor": "#1a237e",
-      "secondaryTextColor": "#0d47a1",
-      "tertiaryTextColor": "#004d40"
-    }
-  }
-}%%
-stateDiagram-v2
-    [*] --> OnGoingLearning: Kiến thức ban đầu (sau bước 2)
-    state OnGoingLearning { 
-        [*] --> SolidKnowledge: Đã học vững (có kiến thức nền)
-    }
-    SolidKnowledge --> Teaching: Bắt đầu **dạy lại** cho AI/bạn bè
-    state Teaching {
-        [*] --> Explaining: Đang giải thích kiến thức
-    }
-    Explaining --> Feedback: Nhận câu hỏi/feedback
-    state Feedback {
-        [*] --> ExposedGap: Lộ điểm chưa rõ (câu hỏi khó)
-        [*] --> ExplainedWell: Giải thích trôi chảy
-    }
-    ExposedGap --> SolidKnowledge: Phát hiện lỗ hổng -> Quay lại ôn tập bổ sung (bước 2)
-    ExplainedWell --> MockInterview: Tiến hành **phỏng vấn thử**
-    state MockInterview {
-        [*] --> Answering: Trả lời câu hỏi phỏng vấn
-    }
-    Answering --> Evaluation
-    state Evaluation {
-        [*] --> NotFluent: Trả lời ấp úng/chưa tốt
-        [*] --> Fluent: Trả lời tốt, lưu loát
-    }
-    NotFluent --> SolidKnowledge: Chưa mượt -> Ôn tập và thử lại
-    Fluent --> Mastery: 🏆 Hoàn toàn làm chủ kỹ năng
-    Mastery --> [*]
-
-```
-
 ---
 
 ## SYSTEM PROMPT CHO GEMINI LIVE
