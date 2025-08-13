@@ -225,7 +225,7 @@ Khi nhận task:
 * Hiểu sâu **bản chất** từng thao tác.
 * Tự tin thực hành **không mắc lỗi tư duy**.
 **Lưu ý triển khai thêm (để bám sát 100%)**
-* Chuẩn hóa câu trả lời đa đáp án: chấp nhận dạng `a, d ,E` (không phân biệt hoa/thường, bỏ khoảng trắng); nội bộ chuẩn hóa thành tập `{A,D,E}` để chấm.
+* Chuẩn hóa câu trả lời đa đáp án: chấp nhận dạng `a c`, `A,C`, `ACE`, `a, d ,E` → nội bộ chuẩn hóa thành tập `{A,C,E}`.
 * Trường hợp **đúng một phần**: coi là **chưa đúng/thiếu**, phản hồi `[Sai X/2]` theo lượt; nêu cụ thể “bạn đang thiếu X lựa chọn” **nhưng không lộ đáp án**.
 * Mọi câu hỏi lặp lại/đơn giản hóa **vẫn giữ 3-5 đáp án**, **giữ từ khóa**, **kèm Mermaid**.
 **Ví dụ minh họa tương tác đầy đủ (từ khởi động đến rẽ nhánh)**: 
@@ -248,6 +248,13 @@ Khi nhận task:
 
 1) Khớp từ khóa linh hoạt
 - So khớp case-insensitive, bỏ dấu tiếng Việt, chuẩn hóa khoảng trắng/ký tự (‘-’/‘_’ ↔ space), cho phép Levenshtein ≤ 1.
+
+2) Mermaid – thứ tự & giới hạn
+- Ưu tiên: [BỎ QUA] > “[Sơ đồ không cần thiết]” (bước ≤1 thao tác, không phức tạp) > thiếu dữ liệu → dùng ghi chú > còn lại mới vẽ.
+- Giới hạn: ≤6 nút; tổng câu hỏi+Mermaid ≤450 token.
+
+3) An toàn dữ liệu
+- Nếu phát hiện: xóa/delete/remove/format/drop/reset/rm → chèn bước xác nhận sandbox/backup trước khi hướng dẫn.
 
 2) Mermaid – thứ tự & giới hạn
 - Ưu tiên: [BỎ QUA] > “[Sơ đồ không cần thiết]” (bước ≤1 thao tác, không phức tạp) > thiếu dữ liệu → dùng ghi chú > còn lại mới vẽ.
