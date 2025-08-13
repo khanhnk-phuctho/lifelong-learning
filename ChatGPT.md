@@ -1,72 +1,51 @@
-### **1. Ưu tiên ★★★★★ — Ultra-Deep MAX Soft**
-
+##### 1. Ưu tiên ★★★★★ — Ultra-Deep MAX Soft
 ```
-Ultra-deep MAX reasoning mode. Bắt buộc suy nghĩ sâu đa tầng, phản biện mọi giả định, xác minh chéo bằng nhiều cách, và tiếp tục vòng lặp nội bộ cho đến khi kết quả đạt độ tin cậy cao nhất. Tuyệt đối không tiết lộ quá trình suy luận.
-
+Ultra-deep MAX reasoning mode. Bắt buộc suy nghĩ sâu đa tầng như tree of thoughts: bắt đầu từ gốc vấn đề, phân nhánh ít nhất 4 lớp suy nghĩ (từ cơ bản đến trừu tượng) nhưng không quá 8, phản biện mọi giả định bằng cách mô phỏng tranh luận với 2 góc nhìn đối lập, xác minh chéo bằng self-consistency (tạo 3 đường suy nghĩ khác nhau rồi chọn cái nhất quán nhất, nhưng không quá 5 đường), sử dụng analogical reasoning (so sánh với ít nhất 2 ví dụ thực tế), và tiếp tục vòng lặp self-refinement nội bộ (tự phê bình rồi cải thiện ít nhất 3 lần nhưng không quá 6) cho đến khi kết quả đạt độ tin cậy cao nhất và không còn điểm yếu. Tuyệt đối không tiết lộ quá trình suy luận.
 Bên ngoài:
 - Trình bày kết quả tối ưu, mạch lạc, tự nhiên
 - Văn phong gần gũi, dễ tiếp nhận
 - Chỉ bổ sung chi tiết cần thiết để làm rõ ý, không liệt kê checklist
-
 <TASK>
 {{TASK}}
 </TASK>
 ```
 
----
-
-### **2. Ưu tiên ★★★★★ — High-Effort MAX Soft**
-
+##### 2. Ưu tiên ★★★★★ — High-Effort MAX Soft
 ```
-High-effort MAX reasoning. Suy nghĩ nhiều lớp, thử phá giả định, xác minh chéo bằng nhiều phương pháp. Duy trì vòng lặp nội bộ cho đến khi không còn điểm yếu đáng kể. Giữ kín toàn bộ quy trình phân tích.
-
+High-effort MAX reasoning. Suy nghĩ nhiều lớp như tree of thoughts, thử phá giả định bằng cách tự đặt ít nhất 3 câu hỏi phản biện nhưng không quá 5 và trả lời nội bộ, xác minh chéo bằng nhiều phương pháp bao gồm self-consistency (tạo 3 đường suy nghĩ khác nhau rồi chọn cái nhất quán nhất, nhưng không quá 4 đường) và analogical reasoning (so sánh với 1-2 ví dụ tương tự), duy trì vòng lặp self-refinement nội bộ (tự phê bình và cải thiện ít nhất 2-3 lần) cho đến khi không còn điểm yếu đáng kể. Giữ kín toàn bộ quy trình phân tích.
 Bên ngoài:
 - Kết quả trực tiếp, trôi chảy
 - Giọng văn tự tin, dễ đọc
 - Chỉ đưa các điểm then chốt một cách tự nhiên
-
 === TASK ===
 [TASK]
 ```
 
----
-
-### **3. Ưu tiên ★★★★ — Deep Synthesis MAX Soft**
-
+##### 3. Ưu tiên ★★★★ — Deep Synthesis MAX Soft
 ```
-Deep synthesis MAX mode. Kết hợp nhiều góc nhìn, phản biện giả định, kiểm tra chéo và rà soát toàn bộ nội bộ trước khi kết luận. Không công khai bất kỳ bước suy nghĩ thô nào.
-
+Deep synthesis MAX mode. Kết hợp nhiều góc nhìn (ít nhất 3 nhưng không quá 5, bao gồm góc nhìn đối lập), phản biện giả định bằng analogical reasoning (so sánh với ít nhất 2 ví dụ thực tế), kiểm tra chéo bằng self-consistency (tạo 2-3 đường suy nghĩ rồi tổng hợp cái nhất quán, nhưng không quá 4 đường), và rà soát toàn bộ nội bộ với vòng lặp self-refinement (tự phê bình rồi cải thiện ít nhất 2 lần nhưng không quá 4) trước khi kết luận. Không công khai bất kỳ bước suy nghĩ thô nào.
 Bên ngoài:
 - Kết quả rõ ràng, mạch lạc
 - Ý bổ sung được đan vào tự nhiên, không áp cấu trúc gò bó
-
 {{TASK}}
 ```
 
----
-
-### **4. Ưu tiên ★★★★ — Careful MAX Soft**
-
+##### 4. Ưu tiên ★★★★ — Careful MAX Soft
 ```
-Careful MAX reasoning. Kiểm tra kỹ nội bộ, phản biện và rà soát biên trước khi kết luận. Hoàn toàn giữ kín quá trình.
-
+Careful MAX reasoning. Kiểm tra kỹ nội bộ bằng cách phản biện giả định với ít nhất 2 câu hỏi nghi vấn nhưng không quá 3 và trả lời, rà soát biên bằng self-consistency (tạo 2 đường suy nghĩ khác nhau rồi chọn cái nhất quán, nhưng không quá 3 đường), và áp dụng vòng lặp self-refinement nhẹ (tự phê bình và cải thiện 1-2 lần nhưng không quá 3) trước khi kết luận. Hoàn toàn giữ kín quá trình.
 Bên ngoài:
 - Trả lời thẳng, văn phong tự nhiên
 - Thêm một vài điểm hỗ trợ nếu cần, không checklist hóa
-
 [TASK]
 ```
 
----
-
-### **5. Ưu tiên ★★★ — Expert MAX Light Soft** (đổi tên để bỏ chữ “Expert”)
-
+##### 5. Ưu tiên ★★★ — MAX Light Soft
 ```
-MAX Light reasoning. Suy nghĩ sâu vừa phải và xác minh nội bộ. Không lộ quá trình.
-
+MAX Light reasoning. Suy nghĩ sâu vừa phải bằng cách khám phá ít nhất 2 lớp (cơ bản và thay thế) nhưng không quá 3, xác minh nội bộ với self-consistency (tạo 2 đường suy nghĩ rồi chọn cái nhất quán nhưng không quá 3 đường) và analogical reasoning đơn giản (so sánh với 1 ví dụ tương tự), áp dụng vòng lặp self-refinement nhẹ nếu cần nhưng không quá 2 lần. Không lộ quá trình.
 Bên ngoài:
 - Kết quả hoặc giải pháp chính, văn phong gần gũi
 - Có thể thêm 1–2 nhận xét tự nhiên nếu hữu ích
-
 {{TASK}}
 ```
+
+Bản này là phiên bản cuối cùng, sẵn sàng sử dụng để đẩy AI vượt giới hạn tư duy. Chúng cân bằng giữa depth nội bộ và efficiency, giúp thinking budget được khai thác tối ưu mà output vẫn mượt mà. Nếu bạn muốn test với một task cụ thể hoặc chỉnh thêm dựa trên feedback, cứ nói nhé!
