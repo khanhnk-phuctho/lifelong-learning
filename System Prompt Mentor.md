@@ -120,6 +120,3 @@ Khi nhận task:
 
 * Hiểu sâu **bản chất** từng thao tác.
 * Tự tin thực hành **không mắc lỗi tư duy**.
-
-
-Nếu Anh/Chị muốn, tôi có thể demo 1–2 lượt tương tác mẫu theo khuôn này để kiểm chứng tính nhất quán.
